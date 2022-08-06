@@ -1,0 +1,3002 @@
+[
+  {
+    "mac": "60-0F-77-1F-34-18",
+    "man": "SilverPlus,\nInc",
+    "short": "60:0F:77"
+  },
+  {
+    "mac": "00-D0-74-4D-0E-FF",
+    "man": "TAQUA\nSYSTEMS,\nINC.",
+    "short": "00:D0:74"
+  },
+  {
+    "mac": "40-CB-A8-FC-74-78",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "40:CB:A8"
+  },
+  {
+    "mac": "B8-D5-0B-58-AA-D6",
+    "man": "Sunitec\nEnterprise\nCo.,Ltd",
+    "short": "B8:D5:0B"
+  },
+  {
+    "mac": "00-19-C0-C0-53-35",
+    "man": "ARRIS\nGroup,\nInc.",
+    "short": "00:19:C0"
+  },
+  {
+    "mac": "00-16-5B-3A-23-BF",
+    "man": "Grip\nAudio",
+    "short": "00:16:5B"
+  },
+  {
+    "mac": "00-12-C1-D0-4C-F2",
+    "man": "Check\nPoint\nSoftware\nTechnologie...",
+    "short": "00:12:C1"
+  },
+  {
+    "mac": "00-24-52-B4-35-70",
+    "man": "Silicon\nSoftware\nGmbH",
+    "short": "00:24:52"
+  },
+  {
+    "mac": "54-36-9B-7E-D3-3D",
+    "man": "1Verge\nInternet\nTechnology\n(Beij...",
+    "short": "54:36:9B"
+  },
+  {
+    "mac": "BC-EB-5F-02-74-01",
+    "man": "Fujian\nBeifeng\nTelecom\nTechnolog...",
+    "short": "BC:EB:5F"
+  },
+  {
+    "mac": "80-C6-AB-01-22-D2",
+    "man": "Technicolor\nCH\nUSA\nInc.",
+    "short": "80:C6:AB"
+  },
+  {
+    "mac": "8C-60-78-1F-78-D5",
+    "man": "Swissbit\nAG",
+    "short": "8C:60:78"
+  },
+  {
+    "mac": "00-1B-E1-8D-8B-49",
+    "man": "ViaLogy",
+    "short": "00:1B:E1"
+  },
+  {
+    "mac": "00-20-3E-5E-BC-3D",
+    "man": "LogiCan\nTechnologies,\nInc.",
+    "short": "00:20:3E"
+  },
+  {
+    "mac": "50-14-79-3E-D3-BE",
+    "man": "iRobot\nCorporation",
+    "short": "50:14:79"
+  },
+  {
+    "mac": "00-12-30-57-69-19",
+    "man": "Picaso\nInfocommunication\nCO.,\nLT...",
+    "short": "00:12:30"
+  },
+  {
+    "mac": "C0-07-4A-C2-AC-C6",
+    "man": "Brita\nGmbH",
+    "short": "C0:07:4A"
+  },
+  {
+    "mac": "C4-BE-84-0A-C9-BB",
+    "man": "Texas\nInstruments",
+    "short": "C4:BE:84"
+  },
+  {
+    "mac": "B0-B8-D5-A3-4B-59",
+    "man": "Nanjing\nNengrui\nAuto\nEquipment\nC...",
+    "short": "B0:B8:D5"
+  },
+  {
+    "mac": "00-1F-1C-92-C9-CD",
+    "man": "KOBISHI\nELECTRIC\nCo.,Ltd.",
+    "short": "00:1F:1C"
+  },
+  {
+    "mac": "AC-1F-09-59-DF-C7",
+    "man": "shenzhen\nRAKwireless\ntechnology\n...",
+    "short": "AC:1F:09"
+  },
+  {
+    "mac": "B8-F9-34-95-33-61",
+    "man": "Sony\nMobile\nCommunications\nInc",
+    "short": "B8:F9:34"
+  },
+  {
+    "mac": "0C-EE-E6-16-07-0E",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "0C:EE:E6"
+  },
+  {
+    "mac": "F4-B7-E2-ED-26-F2",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "F4:B7:E2"
+  },
+  {
+    "mac": "C8-F7-50-DA-18-9B",
+    "man": "Dell\nInc.",
+    "short": "C8:F7:50"
+  },
+  {
+    "mac": "00-17-DB-53-0C-5E",
+    "man": "CANKO\nTECHNOLOGIES\nINC.",
+    "short": "00:17:DB"
+  },
+  {
+    "mac": "00-15-79-A0-58-DB",
+    "man": "Lunatone\nIndustrielle\nElektronik...",
+    "short": "00:15:79"
+  },
+  {
+    "mac": "04-FE-8D-CE-68-8E",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "04:FE:8D"
+  },
+  {
+    "mac": "90-20-C2-19-13-86",
+    "man": "Aruba,\na\nHewlett\nPackard\nEnterpr...",
+    "short": "90:20:C2"
+  },
+  {
+    "mac": "6C-61-F4-BF-54-A6",
+    "man": "SFR",
+    "short": "6C:61:F4"
+  },
+  {
+    "mac": "00-1A-49-F0-B6-DC",
+    "man": "Micro\nVision\nCo.,LTD",
+    "short": "00:1A:49"
+  },
+  {
+    "mac": "24-49-7B-7D-1E-D0",
+    "man": "Innovative\nConverged\nDevices\nInc",
+    "short": "24:49:7B"
+  },
+  {
+    "mac": "00-E0-34-3C-41-68",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:E0:34"
+  },
+  {
+    "mac": "54-46-6B-94-BA-F9",
+    "man": "Shenzhen\nCZTIC\nElectronic\nTechno...",
+    "short": "54:46:6B"
+  },
+  {
+    "mac": "44-88-CB-26-6C-7F",
+    "man": "Camco\nTechnologies\nNV",
+    "short": "44:88:CB"
+  },
+  {
+    "mac": "4C-CC-6A-1E-D5-06",
+    "man": "Micro-Star\nINTL\nCO.,\nLTD.",
+    "short": "4C:CC:6A"
+  },
+  {
+    "mac": "30-17-C8-F1-5F-19",
+    "man": "Sony\nMobile\nCommunications\nInc",
+    "short": "30:17:C8"
+  },
+  {
+    "mac": "78-23-27-CB-56-CC",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "78:23:27"
+  },
+  {
+    "mac": "00-01-1A-15-4F-01",
+    "man": "Hoffmann\nund\nBurmeister\nGbR",
+    "short": "00:01:1A"
+  },
+  {
+    "mac": "00-04-00-FF-79-4A",
+    "man": "LEXMARK\nINTERNATIONAL,\nINC.",
+    "short": "00:04:00"
+  },
+  {
+    "mac": "20-B7-C0-80-48-21",
+    "man": "OMICRON\nelectronics\nGmbH",
+    "short": "20:B7:C0"
+  },
+  {
+    "mac": "70-25-26-83-0B-EE",
+    "man": "Nokia",
+    "short": "70:25:26"
+  },
+  {
+    "mac": "30-86-2D-DD-2C-63",
+    "man": "Arista\nNetwork,\nInc.",
+    "short": "30:86:2D"
+  },
+  {
+    "mac": "00-26-D6-D6-E4-F3",
+    "man": "Ningbo\nAndy\nOptoelectronic\nCo.,\n...",
+    "short": "00:26:D6"
+  },
+  {
+    "mac": "38-BF-33-51-0B-71",
+    "man": "NEC\nCASIO\nMobile\nCommunications",
+    "short": "38:BF:33"
+  },
+  {
+    "mac": "B4-FE-8C-09-5F-09",
+    "man": "Centro\nSicurezza\nItalia\nSpA",
+    "short": "B4:FE:8C"
+  },
+  {
+    "mac": "00-50-23-E8-76-E1",
+    "man": "PG\nDESIGN\nELECTRONICS,\nINC.",
+    "short": "00:50:23"
+  },
+  {
+    "mac": "48-13-7E-18-26-4F",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "48:13:7E"
+  },
+  {
+    "mac": "94-37-F7-F0-89-EE",
+    "man": "Huawei\nDevice\nCo.,\nLtd.",
+    "short": "94:37:F7"
+  },
+  {
+    "mac": "00-02-76-2F-20-7D",
+    "man": "Primax\nElectronics\nLtd.",
+    "short": "00:02:76"
+  },
+  {
+    "mac": "00-50-ED-DD-67-5E",
+    "man": "ANDA\nNETWORKS",
+    "short": "00:50:ED"
+  },
+  {
+    "mac": "00-E0-A5-CF-20-35",
+    "man": "ComCore\nSemiconductor,\nInc.",
+    "short": "00:E0:A5"
+  },
+  {
+    "mac": "00-0C-E7-76-48-36",
+    "man": "MediaTek\nInc.",
+    "short": "00:0C:E7"
+  },
+  {
+    "mac": "34-87-3D-56-43-32",
+    "man": "Quectel\nWireless\nSolution\nCo.,Lt...",
+    "short": "34:87:3D"
+  },
+  {
+    "mac": "70-61-7B-AA-6B-2B",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "70:61:7B"
+  },
+  {
+    "mac": "00-15-A6-A1-C6-DD",
+    "man": "Digital\nElectronics\nProducts\nLtd...",
+    "short": "00:15:A6"
+  },
+  {
+    "mac": "04-88-8C-1A-F0-CE",
+    "man": "Eifelwerk\nButler\nSysteme\nGmbH",
+    "short": "04:88:8C"
+  },
+  {
+    "mac": "D4-81-D7-5D-6B-98",
+    "man": "Dell\nInc.",
+    "short": "D4:81:D7"
+  },
+  {
+    "mac": "00-19-06-C8-AA-0C",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:19:06"
+  },
+  {
+    "mac": "2C-21-31-CF-73-0B",
+    "man": "Juniper\nNetworks",
+    "short": "2C:21:31"
+  },
+  {
+    "mac": "00-40-B0-C0-AE-EB",
+    "man": "BYTEX\nCORPORATION,\nENGINEERING",
+    "short": "00:40:B0"
+  },
+  {
+    "mac": "4C-0F-C7-D3-FD-5C",
+    "man": "Earda\nTechnologies\nco\nLtd",
+    "short": "4C:0F:C7"
+  },
+  {
+    "mac": "1C-14-48-45-A2-A4",
+    "man": "ARRIS\nGroup,\nInc.",
+    "short": "1C:14:48"
+  },
+  {
+    "mac": "90-DD-5D-31-CC-E9",
+    "man": "Apple,\nInc.",
+    "short": "90:DD:5D"
+  },
+  {
+    "mac": "28-48-46-5D-5C-D6",
+    "man": "GridCentric\nInc.",
+    "short": "28:48:46"
+  },
+  {
+    "mac": "00-26-63-DF-2B-E5",
+    "man": "Shenzhen\nHuitaiwei\nTech.\nLtd,\nco...",
+    "short": "00:26:63"
+  },
+  {
+    "mac": "00-1A-2E-FF-13-82",
+    "man": "Ziova\nCoporation",
+    "short": "00:1A:2E"
+  },
+  {
+    "mac": "C8-3D-DC-77-F9-FD",
+    "man": "Xiaomi\nCommunications\nCo\nLtd",
+    "short": "C8:3D:DC"
+  },
+  {
+    "mac": "00-23-83-B6-36-E3",
+    "man": "InMage\nSystems\nInc",
+    "short": "00:23:83"
+  },
+  {
+    "mac": "00-19-FB-63-18-54",
+    "man": "BSkyB\nLtd",
+    "short": "00:19:FB"
+  },
+  {
+    "mac": "A8-F5-AC-51-50-40",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "A8:F5:AC"
+  },
+  {
+    "mac": "00-C0-0B-06-9B-9E",
+    "man": "NORCONTROL\nA.S.",
+    "short": "00:C0:0B"
+  },
+  {
+    "mac": "F0-F9-F7-E5-CA-CA",
+    "man": "IES\nGmbH\n&\nCo.\nKG",
+    "short": "F0:F9:F7"
+  },
+  {
+    "mac": "78-B8-D6-D0-77-80",
+    "man": "Zebra\nTechnologies\nInc.",
+    "short": "78:B8:D6"
+  },
+  {
+    "mac": "00-17-D4-A0-72-F8",
+    "man": "Monsoon\nMultimedia,\nInc",
+    "short": "00:17:D4"
+  },
+  {
+    "mac": "28-F5-32-64-9A-CF",
+    "man": "ADD-Engineering\nBV",
+    "short": "28:F5:32"
+  },
+  {
+    "mac": "00-1D-4B-27-B9-04",
+    "man": "Grid\nConnect\nInc.",
+    "short": "00:1D:4B"
+  },
+  {
+    "mac": "00-08-F4-70-AA-03",
+    "man": "Bluetake\nTechnology\nCo.,\nLtd.",
+    "short": "00:08:F4"
+  },
+  {
+    "mac": "00-1D-BA-4C-B0-B4",
+    "man": "Sony\nCorporation",
+    "short": "00:1D:BA"
+  },
+  {
+    "mac": "00-05-75-52-53-F3",
+    "man": "CDS-Electronics\nBV",
+    "short": "00:05:75"
+  },
+  {
+    "mac": "00-10-F3-DF-30-75",
+    "man": "Nexcom\nInternational\nCo.,\nLtd.",
+    "short": "00:10:F3"
+  },
+  {
+    "mac": "00-06-0D-4D-28-9F",
+    "man": "Wave7\nOptics",
+    "short": "00:06:0D"
+  },
+  {
+    "mac": "84-1E-26-2C-13-F3",
+    "man": "KERNEL-I\nCo.,LTD",
+    "short": "84:1E:26"
+  },
+  {
+    "mac": "00-1B-62-64-17-49",
+    "man": "JHT\nOptoelectronics\nCo.,Ltd.",
+    "short": "00:1B:62"
+  },
+  {
+    "mac": "00-A0-06-8A-BB-15",
+    "man": "IMAGE\nDATA\nPROCESSING\nSYSTEM\nGRO...",
+    "short": "00:A0:06"
+  },
+  {
+    "mac": "00-03-BC-39-22-99",
+    "man": "COT\nGmbH",
+    "short": "00:03:BC"
+  },
+  {
+    "mac": "00-E0-26-E9-7B-B9",
+    "man": "Redlake\nMASD\nLLC",
+    "short": "00:E0:26"
+  },
+  {
+    "mac": "D4-C9-EF-67-E5-9E",
+    "man": "Hewlett\nPackard",
+    "short": "D4:C9:EF"
+  },
+  {
+    "mac": "A8-9D-21-0C-93-0B",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "A8:9D:21"
+  },
+  {
+    "mac": "48-4C-86-CE-FE-50",
+    "man": "Huawei\nDevice\nCo.,\nLtd.",
+    "short": "48:4C:86"
+  },
+  {
+    "mac": "9C-2F-73-75-13-74",
+    "man": "Universal\nTiancheng\nTechnology\n(...",
+    "short": "9C:2F:73"
+  },
+  {
+    "mac": "00-16-13-B5-EC-28",
+    "man": "LibreStream\nTechnologies\nInc.",
+    "short": "00:16:13"
+  },
+  {
+    "mac": "00-18-D5-FE-EE-02",
+    "man": "REIGNCOM",
+    "short": "00:18:D5"
+  },
+  {
+    "mac": "2C-8A-72-7C-95-F0",
+    "man": "HTC\nCorporation",
+    "short": "2C:8A:72"
+  },
+  {
+    "mac": "10-B7-13-3C-D1-31",
+    "man": "Private",
+    "short": "10:B7:13"
+  },
+  {
+    "mac": "00-A0-74-A8-3E-6A",
+    "man": "PERCEPTION\nTECHNOLOGY",
+    "short": "00:A0:74"
+  },
+  {
+    "mac": "CC-90-E8-7F-AE-BE",
+    "man": "Shenzhen\nYOUHUA\nTechnology\nCo.,\n...",
+    "short": "CC:90:E8"
+  },
+  {
+    "mac": "00-1A-E7-C3-47-A3",
+    "man": "Aztek\nNetworks,\nInc.",
+    "short": "00:1A:E7"
+  },
+  {
+    "mac": "00-0A-61-24-87-C2",
+    "man": "Cellinx\nSystems\nInc.",
+    "short": "00:0A:61"
+  },
+  {
+    "mac": "04-81-9B-E2-CD-68",
+    "man": "BSkyB\nLtd",
+    "short": "04:81:9B"
+  },
+  {
+    "mac": "40-B6-E7-B4-CE-A8",
+    "man": "Huawei\nDevice\nCo.,\nLtd.",
+    "short": "40:B6:E7"
+  },
+  {
+    "mac": "00-04-E1-4D-79-8D",
+    "man": "Infinior\nMicrosystems",
+    "short": "00:04:E1"
+  },
+  {
+    "mac": "00-1C-B2-6F-F3-66",
+    "man": "BPT\nSPA",
+    "short": "00:1C:B2"
+  },
+  {
+    "mac": "00-06-9D-7F-A8-DD",
+    "man": "Petards\nLtd",
+    "short": "00:06:9D"
+  },
+  {
+    "mac": "00-19-B2-12-60-40",
+    "man": "XYnetsoft\nCo.,Ltd",
+    "short": "00:19:B2"
+  },
+  {
+    "mac": "00-0D-6C-EE-BD-57",
+    "man": "M-Audio",
+    "short": "00:0D:6C"
+  },
+  {
+    "mac": "E4-46-BD-8B-C3-46",
+    "man": "C&C\nTECHNIC\nTAIWAN\nCO.,\nLTD.",
+    "short": "E4:46:BD"
+  },
+  {
+    "mac": "B0-A1-0A-51-D6-65",
+    "man": "Pivotal\nSystems\nCorporation",
+    "short": "B0:A1:0A"
+  },
+  {
+    "mac": "84-21-41-0D-17-5C",
+    "man": "Shenzhen\nGinwave\nTechnologies\nLt...",
+    "short": "84:21:41"
+  },
+  {
+    "mac": "00-18-44-C0-E4-72",
+    "man": "Heads\nUp\nTechnologies,\nInc.",
+    "short": "00:18:44"
+  },
+  {
+    "mac": "00-C0-2B-0F-5E-4D",
+    "man": "GERLOFF\nGESELLSCHAFT\nFUR",
+    "short": "00:C0:2B"
+  },
+  {
+    "mac": "24-1E-EB-21-62-DD",
+    "man": "Apple,\nInc.",
+    "short": "24:1E:EB"
+  },
+  {
+    "mac": "00-08-5B-44-B0-60",
+    "man": "Hanbit\nElectronics\nCo.,\nLtd.",
+    "short": "00:08:5B"
+  },
+  {
+    "mac": "00-19-D5-9D-D6-0C",
+    "man": "IP\nInnovations,\nInc.",
+    "short": "00:19:D5"
+  },
+  {
+    "mac": "84-69-91-CC-99-88",
+    "man": "Nokia",
+    "short": "84:69:91"
+  },
+  {
+    "mac": "00-C0-70-C7-4B-0C",
+    "man": "SECTRA\nSECURE-TRANSMISSION\nAB",
+    "short": "00:C0:70"
+  },
+  {
+    "mac": "50-98-F3-0F-BE-30",
+    "man": "Rheem\nAustralia\nPty\nLtd",
+    "short": "50:98:F3"
+  },
+  {
+    "mac": "28-AF-0A-1D-AA-F5",
+    "man": "Sirius\nXM\nRadio\nInc",
+    "short": "28:AF:0A"
+  },
+  {
+    "mac": "DC-2B-61-F4-E3-DE",
+    "man": "Apple,\nInc.",
+    "short": "DC:2B:61"
+  },
+  {
+    "mac": "18-FF-0F-47-1C-17",
+    "man": "Intel\nCorporate",
+    "short": "18:FF:0F"
+  },
+  {
+    "mac": "00-5F-86-33-45-53",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:5F:86"
+  },
+  {
+    "mac": "00-40-05-C2-8D-D1",
+    "man": "ANI\nCOMMUNICATIONS\nINC.",
+    "short": "00:40:05"
+  },
+  {
+    "mac": "00-12-08-FE-CD-5A",
+    "man": "Gantner\nInstruments\nGmbH",
+    "short": "00:12:08"
+  },
+  {
+    "mac": "00-25-32-59-5F-1C",
+    "man": "Digital\nRecorders",
+    "short": "00:25:32"
+  },
+  {
+    "mac": "00-1D-05-A2-3E-81",
+    "man": "Eaton\nCorporation",
+    "short": "00:1D:05"
+  },
+  {
+    "mac": "24-FD-5B-68-27-14",
+    "man": "SmartThings,\nInc.",
+    "short": "24:FD:5B"
+  },
+  {
+    "mac": "00-10-E5-4D-DA-9B",
+    "man": "SOLECTRON\nTEXAS",
+    "short": "00:10:E5"
+  },
+  {
+    "mac": "E4-2A-D3-BB-F8-1E",
+    "man": "Magneti\nMarelli\nS.p.A.\nPowertrai...",
+    "short": "E4:2A:D3"
+  },
+  {
+    "mac": "A0-4F-85-2E-09-58",
+    "man": "LG\nElectronics\n(Mobile\nCommunica...",
+    "short": "A0:4F:85"
+  },
+  {
+    "mac": "1C-27-04-4D-27-44",
+    "man": "zte\ncorporation",
+    "short": "1C:27:04"
+  },
+  {
+    "mac": "70-E2-84-BD-11-82",
+    "man": "Wistron\nInfocomm\n(Zhongshan)\nCor...",
+    "short": "70:E2:84"
+  },
+  {
+    "mac": "40-B3-FC-B2-FA-C5",
+    "man": "Logital\nCo.\nLimited",
+    "short": "40:B3:FC"
+  },
+  {
+    "mac": "88-96-F2-5F-22-30",
+    "man": "Valeo\nSchalter\nund\nSensoren\nGmbH",
+    "short": "88:96:F2"
+  },
+  {
+    "mac": "00-1B-F6-4D-A0-B2",
+    "man": "CONWISE\nTechnology\nCorporation\nL...",
+    "short": "00:1B:F6"
+  },
+  {
+    "mac": "00-40-74-B6-CE-67",
+    "man": "CABLE\nAND\nWIRELESS",
+    "short": "00:40:74"
+  },
+  {
+    "mac": "A0-FF-70-52-17-59",
+    "man": "Technicolor\nCH\nUSA\nInc.",
+    "short": "A0:FF:70"
+  },
+  {
+    "mac": "10-62-C9-7B-72-A5",
+    "man": "Adatis\nGmbH\n&\nCo.\nKG",
+    "short": "10:62:C9"
+  },
+  {
+    "mac": "64-F2-FB-3A-22-24",
+    "man": "Hangzhou\nEzviz\nSoftware\nCo.,Ltd.",
+    "short": "64:F2:FB"
+  },
+  {
+    "mac": "08-3A-5C-5D-6C-0E",
+    "man": "Junilab,\nInc.",
+    "short": "08:3A:5C"
+  },
+  {
+    "mac": "0C-C8-1F-06-3A-A9",
+    "man": "Summer\nInfant,\nInc.",
+    "short": "0C:C8:1F"
+  },
+  {
+    "mac": "14-9D-99-C9-FA-80",
+    "man": "Apple,\nInc.",
+    "short": "14:9D:99"
+  },
+  {
+    "mac": "14-AE-85-7E-8D-BC",
+    "man": "IEEE\nRegistration\nAuthority",
+    "short": "14:AE:85"
+  },
+  {
+    "mac": "00-C0-01-7C-EA-FA",
+    "man": "DIATEK\nPATIENT\nMANAGMENT",
+    "short": "00:C0:01"
+  },
+  {
+    "mac": "00-0E-1B-3C-86-83",
+    "man": "IAV\nGmbH",
+    "short": "00:0E:1B"
+  },
+  {
+    "mac": "EC-2E-4E-6B-44-90",
+    "man": "HITACHI-LG\nDATA\nSTORAGE\nINC",
+    "short": "EC:2E:4E"
+  },
+  {
+    "mac": "00-25-72-2E-AD-0C",
+    "man": "Nemo-Q\nInternational\nAB",
+    "short": "00:25:72"
+  },
+  {
+    "mac": "58-04-CB-BE-74-ED",
+    "man": "Tianjin\nHuisun\nTechnology\nCo.,Lt...",
+    "short": "58:04:CB"
+  },
+  {
+    "mac": "00-D0-F1-92-35-5D",
+    "man": "SEGA\nENTERPRISES,\nLTD.",
+    "short": "00:D0:F1"
+  },
+  {
+    "mac": "00-09-A8-FE-D7-CD",
+    "man": "Eastmode\nPte\nLtd",
+    "short": "00:09:A8"
+  },
+  {
+    "mac": "00-18-59-52-09-21",
+    "man": "Strawberry\nLinux\nCo.,Ltd.",
+    "short": "00:18:59"
+  },
+  {
+    "mac": "80-94-6C-B5-BF-B1",
+    "man": "TOKYO\nRADAR\nCORPORATION",
+    "short": "80:94:6C"
+  },
+  {
+    "mac": "00-17-91-E7-03-59",
+    "man": "LinTech\nGmbH",
+    "short": "00:17:91"
+  },
+  {
+    "mac": "00-80-7C-71-25-6E",
+    "man": "FIBERCOM,\nINC.",
+    "short": "00:80:7C"
+  },
+  {
+    "mac": "68-54-ED-CA-4B-07",
+    "man": "Alcatel-Lucent",
+    "short": "68:54:ED"
+  },
+  {
+    "mac": "74-2B-62-9F-34-CC",
+    "man": "FUJITSU\nLIMITED",
+    "short": "74:2B:62"
+  },
+  {
+    "mac": "00-02-7C-EB-AC-0F",
+    "man": "Trilithic,\nInc.",
+    "short": "00:02:7C"
+  },
+  {
+    "mac": "00-01-89-FF-06-45",
+    "man": "Refraction\nTechnology,\nInc.",
+    "short": "00:01:89"
+  },
+  {
+    "mac": "60-FA-CD-68-E1-05",
+    "man": "Apple,\nInc.",
+    "short": "60:FA:CD"
+  },
+  {
+    "mac": "68-1F-40-80-8F-2A",
+    "man": "Blu\nWireless\nTechnology\nLtd",
+    "short": "68:1F:40"
+  },
+  {
+    "mac": "38-18-4C-91-C3-17",
+    "man": "Sony\nHome\nEntertainment&Sound\nPr...",
+    "short": "38:18:4C"
+  },
+  {
+    "mac": "28-A6-DB-E8-17-F7",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "28:A6:DB"
+  },
+  {
+    "mac": "00-50-B4-C6-75-91",
+    "man": "SATCHWELL\nCONTROL\nSYSTEMS,\nLTD",
+    "short": "00:50:B4"
+  },
+  {
+    "mac": "00-1D-33-6E-64-BF",
+    "man": "Maverick\nSystems\nInc.",
+    "short": "00:1D:33"
+  },
+  {
+    "mac": "00-26-48-6E-1B-91",
+    "man": "Emitech\nCorp.",
+    "short": "00:26:48"
+  },
+  {
+    "mac": "00-23-4F-70-BF-40",
+    "man": "Luminous\nPower\nTechnologies\nPvt....",
+    "short": "00:23:4F"
+  },
+  {
+    "mac": "18-4F-32-AE-DC-C2",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "18:4F:32"
+  },
+  {
+    "mac": "00-05-04-92-6C-FB",
+    "man": "Naray\nInformation\n&\nCommunicatio...",
+    "short": "00:05:04"
+  },
+  {
+    "mac": "00-13-31-E5-BA-9E",
+    "man": "CellPoint\nConnect",
+    "short": "00:13:31"
+  },
+  {
+    "mac": "00-08-22-5B-48-7D",
+    "man": "InPro\nComm",
+    "short": "00:08:22"
+  },
+  {
+    "mac": "00-02-C0-64-25-AB",
+    "man": "Bencent\nTzeng\nIndustry\nCo.,\nLtd.",
+    "short": "00:02:C0"
+  },
+  {
+    "mac": "10-A1-3B-EC-14-AB",
+    "man": "FUJIKURA\nRUBBER\nLTD.",
+    "short": "10:A1:3B"
+  },
+  {
+    "mac": "2C-75-0F-FA-88-F4",
+    "man": "Shanghai\nDongzhou-Lawton\nCommuni...",
+    "short": "2C:75:0F"
+  },
+  {
+    "mac": "00-60-B8-83-A0-60",
+    "man": "CORELIS\nInc.",
+    "short": "00:60:B8"
+  },
+  {
+    "mac": "E8-40-40-BA-15-08",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "E8:40:40"
+  },
+  {
+    "mac": "00-23-57-7C-73-20",
+    "man": "Pitronot\nTechnologies\nand\nEngine...",
+    "short": "00:23:57"
+  },
+  {
+    "mac": "00-04-B0-96-8F-85",
+    "man": "ELESIGN\nCo.,\nLtd.",
+    "short": "00:04:B0"
+  },
+  {
+    "mac": "04-31-10-C5-F9-C8",
+    "man": "Inspur\nGroup\nCo.,\nLtd.",
+    "short": "04:31:10"
+  },
+  {
+    "mac": "00-24-A3-2D-23-3D",
+    "man": "Sonim\nTechnologies\nInc",
+    "short": "00:24:A3"
+  },
+  {
+    "mac": "1C-13-38-AE-73-4A",
+    "man": "Kimball\nElectronics\nGroup,\nLLC",
+    "short": "1C:13:38"
+  },
+  {
+    "mac": "C0-E4-34-EC-60-E0",
+    "man": "AzureWave\nTechnology\nInc.",
+    "short": "C0:E4:34"
+  },
+  {
+    "mac": "C8-56-63-E0-8B-AE",
+    "man": "Sunflex\nEurope\nGmbH",
+    "short": "C8:56:63"
+  },
+  {
+    "mac": "B4-00-9C-66-DD-1F",
+    "man": "CableWorld\nLtd.",
+    "short": "B4:00:9C"
+  },
+  {
+    "mac": "70-66-1B-71-C1-13",
+    "man": "Sonova\nAG",
+    "short": "70:66:1B"
+  },
+  {
+    "mac": "FC-33-42-A7-7B-F9",
+    "man": "Juniper\nNetworks",
+    "short": "FC:33:42"
+  },
+  {
+    "mac": "00-1D-1B-FA-11-EB",
+    "man": "Sangean\nElectronics\nInc.",
+    "short": "00:1D:1B"
+  },
+  {
+    "mac": "AC-12-03-6A-C1-D0",
+    "man": "Intel\nCorporate",
+    "short": "AC:12:03"
+  },
+  {
+    "mac": "00-22-CD-16-1E-2C",
+    "man": "Ared\nTechnology\nCo.,\nLtd.",
+    "short": "00:22:CD"
+  },
+  {
+    "mac": "00-50-22-35-D1-AC",
+    "man": "ZONET\nTECHNOLOGY,\nINC.",
+    "short": "00:50:22"
+  },
+  {
+    "mac": "98-F8-C1-27-D3-BF",
+    "man": "IDT\nTechnology\nLimited",
+    "short": "98:F8:C1"
+  },
+  {
+    "mac": "00-15-52-4A-66-81",
+    "man": "Wi-Gear\nInc.",
+    "short": "00:15:52"
+  },
+  {
+    "mac": "F8-13-08-19-DF-8B",
+    "man": "Nokia",
+    "short": "F8:13:08"
+  },
+  {
+    "mac": "00-05-2E-CA-10-3F",
+    "man": "Cinta\nNetworks",
+    "short": "00:05:2E"
+  },
+  {
+    "mac": "00-16-63-E0-D6-24",
+    "man": "KBT\nMobile",
+    "short": "00:16:63"
+  },
+  {
+    "mac": "00-18-DF-79-F7-81",
+    "man": "The\nMorey\nCorporation",
+    "short": "00:18:DF"
+  },
+  {
+    "mac": "94-99-01-11-93-B9",
+    "man": "Shenzhen\nYITOA\nDigital\nAppliance...",
+    "short": "94:99:01"
+  },
+  {
+    "mac": "00-11-F0-68-EF-3E",
+    "man": "Wideful\nLimited",
+    "short": "00:11:F0"
+  },
+  {
+    "mac": "24-E6-BA-BD-91-A3",
+    "man": "JSC\nZavod\nim.\nKozitsky",
+    "short": "24:E6:BA"
+  },
+  {
+    "mac": "7C-FE-90-1B-26-45",
+    "man": "Mellanox\nTechnologies,\nInc.",
+    "short": "7C:FE:90"
+  },
+  {
+    "mac": "2C-A8-9C-D9-46-8A",
+    "man": "Creatz\ninc.",
+    "short": "2C:A8:9C"
+  },
+  {
+    "mac": "68-6E-48-54-40-3C",
+    "man": "Prophet\nElectronic\nTechnology\nCo...",
+    "short": "68:6E:48"
+  },
+  {
+    "mac": "00-13-78-28-C1-36",
+    "man": "Qsan\nTechnology,\nInc.",
+    "short": "00:13:78"
+  },
+  {
+    "mac": "00-23-96-D0-A6-C0",
+    "man": "ANDES\nTECHNOLOGY\nCORPORATION",
+    "short": "00:23:96"
+  },
+  {
+    "mac": "2C-CA-0C-B9-96-5B",
+    "man": "WITHUS\nPLANET",
+    "short": "2C:CA:0C"
+  },
+  {
+    "mac": "00-24-23-4E-4A-6C",
+    "man": "AzureWave\nTechnologies\n(Shanghai...",
+    "short": "00:24:23"
+  },
+  {
+    "mac": "A8-9C-A4-65-19-E1",
+    "man": "Furrion\nLimited",
+    "short": "A8:9C:A4"
+  },
+  {
+    "mac": "70-76-FF-98-ED-A2",
+    "man": "KERLINK",
+    "short": "70:76:FF"
+  },
+  {
+    "mac": "9C-93-E4-C2-7B-F3",
+    "man": "Private",
+    "short": "9C:93:E4"
+  },
+  {
+    "mac": "CC-1E-FF-FC-DA-D8",
+    "man": "Metrological\nGroup\nBV",
+    "short": "CC:1E:FF"
+  },
+  {
+    "mac": "D8-13-99-A2-89-1A",
+    "man": "Hui\nZhou\nGaoshengda\nTechnology\nC...",
+    "short": "D8:13:99"
+  },
+  {
+    "mac": "E4-DB-6D-22-79-A7",
+    "man": "Beijing\nXiaomi\nElectronics\nCo.,\n...",
+    "short": "E4:DB:6D"
+  },
+  {
+    "mac": "00-25-44-64-D8-7B",
+    "man": "LoJack\nCorporation",
+    "short": "00:25:44"
+  },
+  {
+    "mac": "00-0F-7E-DE-91-C8",
+    "man": "Ablerex\nElectronics\nCo.,\nLTD",
+    "short": "00:0F:7E"
+  },
+  {
+    "mac": "5C-51-81-7D-F8-E7",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "5C:51:81"
+  },
+  {
+    "mac": "00-0E-98-76-47-CD",
+    "man": "HME\nClear-Com\nLTD.",
+    "short": "00:0E:98"
+  },
+  {
+    "mac": "28-9A-4B-4A-FB-55",
+    "man": "SteelSeries\nApS",
+    "short": "28:9A:4B"
+  },
+  {
+    "mac": "50-2F-A8-86-BE-8A",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "50:2F:A8"
+  },
+  {
+    "mac": "7C-D9-5C-C7-D3-66",
+    "man": "Google,\nInc.",
+    "short": "7C:D9:5C"
+  },
+  {
+    "mac": "00-A0-C3-67-0F-4C",
+    "man": "UNICOMPUTER\nGMBH",
+    "short": "00:A0:C3"
+  },
+  {
+    "mac": "00-27-07-52-E5-40",
+    "man": "Lift\nComplex\nDS,\nJSC",
+    "short": "00:27:07"
+  },
+  {
+    "mac": "0C-1D-C2-51-3B-B6",
+    "man": "SeAH\nNetworks",
+    "short": "0C:1D:C2"
+  },
+  {
+    "mac": "00-1E-CF-3B-F5-4F",
+    "man": "PHILIPS\nELECTRONICS\nUK\nLTD",
+    "short": "00:1E:CF"
+  },
+  {
+    "mac": "94-FB-29-6C-B0-9C",
+    "man": "Zebra\nTechnologies\nInc.",
+    "short": "94:FB:29"
+  },
+  {
+    "mac": "80-26-89-63-A1-B3",
+    "man": "D-Link\nInternational",
+    "short": "80:26:89"
+  },
+  {
+    "mac": "64-B9-E8-8B-18-A6",
+    "man": "Apple,\nInc.",
+    "short": "64:B9:E8"
+  },
+  {
+    "mac": "BC-C6-1A-26-05-2C",
+    "man": "SPECTRA\nEMBEDDED\nSYSTEMS",
+    "short": "BC:C6:1A"
+  },
+  {
+    "mac": "00-1D-E8-41-46-EF",
+    "man": "Nikko\nDenki\nTsushin\nCorporation(...",
+    "short": "00:1D:E8"
+  },
+  {
+    "mac": "00-40-D7-7A-92-B3",
+    "man": "STUDIO\nGEN\nINC.",
+    "short": "00:40:D7"
+  },
+  {
+    "mac": "00-2B-67-7D-74-68",
+    "man": "LCFC(HeFei)\nElectronics\nTechnolo...",
+    "short": "00:2B:67"
+  },
+  {
+    "mac": "48-17-4C-F9-75-F1",
+    "man": "MicroPower\ntechnologies",
+    "short": "48:17:4C"
+  },
+  {
+    "mac": "70-5C-AD-CB-EE-8E",
+    "man": "Konami\nGaming\nInc",
+    "short": "70:5C:AD"
+  },
+  {
+    "mac": "DC-53-7C-B5-86-8A",
+    "man": "Compal\nBroadband\nNetworks,\nInc.",
+    "short": "DC:53:7C"
+  },
+  {
+    "mac": "00-A0-2A-06-73-D8",
+    "man": "TRANCELL\nSYSTEMS",
+    "short": "00:A0:2A"
+  },
+  {
+    "mac": "A8-49-4D-3F-2E-9A",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "A8:49:4D"
+  },
+  {
+    "mac": "00-11-9F-9C-00-10",
+    "man": "Nokia\nDanmark\nA/S",
+    "short": "00:11:9F"
+  },
+  {
+    "mac": "00-06-98-52-14-79",
+    "man": "egnite\nGmbH",
+    "short": "00:06:98"
+  },
+  {
+    "mac": "00-00-1E-5C-EC-32",
+    "man": "TELSIST\nINDUSTRIA\nELECTRONICA",
+    "short": "00:00:1E"
+  },
+  {
+    "mac": "F4-47-2A-78-DE-39",
+    "man": "Nanjing\nRousing\nSci.\nand\nTech.\nI...",
+    "short": "F4:47:2A"
+  },
+  {
+    "mac": "D4-AD-BD-9A-52-43",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "D4:AD:BD"
+  },
+  {
+    "mac": "00-0B-4B-8A-38-C5",
+    "man": "VISIOWAVE\nSA",
+    "short": "00:0B:4B"
+  },
+  {
+    "mac": "00-90-E9-EE-23-35",
+    "man": "JANZ\nCOMPUTER\nAG",
+    "short": "00:90:E9"
+  },
+  {
+    "mac": "28-7F-CF-C4-89-A7",
+    "man": "Intel\nCorporate",
+    "short": "28:7F:CF"
+  },
+  {
+    "mac": "00-60-61-99-AD-06",
+    "man": "WHISTLE\nCOMMUNICATIONS\nCORP.",
+    "short": "00:60:61"
+  },
+  {
+    "mac": "00-14-2D-DA-40-4A",
+    "man": "Toradex\nAG",
+    "short": "00:14:2D"
+  },
+  {
+    "mac": "00-0C-67-4A-E1-9E",
+    "man": "OYO\nELECTRIC\nCO.,LTD",
+    "short": "00:0C:67"
+  },
+  {
+    "mac": "00-90-06-82-E4-D4",
+    "man": "Hamamatsu\nPhotonics\nK.K.",
+    "short": "00:90:06"
+  },
+  {
+    "mac": "44-AE-AB-C3-F4-04",
+    "man": "GUANGDONG\nOPPO\nMOBILE\nTELECOMMUN...",
+    "short": "44:AE:AB"
+  },
+  {
+    "mac": "98-5C-93-72-04-32",
+    "man": "SBG\nSystems\nSAS",
+    "short": "98:5C:93"
+  },
+  {
+    "mac": "E4-4E-18-6A-A1-12",
+    "man": "Gardasoft\nVisionLimited",
+    "short": "E4:4E:18"
+  },
+  {
+    "mac": "18-D9-49-6F-EF-F6",
+    "man": "Qvis\nLabs,\nLLC",
+    "short": "18:D9:49"
+  },
+  {
+    "mac": "00-05-A9-3E-E8-E3",
+    "man": "Princeton\nNetworks,\nInc.",
+    "short": "00:05:A9"
+  },
+  {
+    "mac": "C8-69-CD-6A-D4-7E",
+    "man": "Apple,\nInc.",
+    "short": "C8:69:CD"
+  },
+  {
+    "mac": "38-43-7D-B2-4E-C4",
+    "man": "Compal\nBroadband\nNetworks,\nInc.",
+    "short": "38:43:7D"
+  },
+  {
+    "mac": "B4-15-13-08-B0-57",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "B4:15:13"
+  },
+  {
+    "mac": "00-A0-C7-AE-60-43",
+    "man": "TADIRAN\nTELECOMMUNICATIONS",
+    "short": "00:A0:C7"
+  },
+  {
+    "mac": "48-2A-E3-79-8E-BC",
+    "man": "Wistron\nInfoComm(Kunshan)Co.,Ltd...",
+    "short": "48:2A:E3"
+  },
+  {
+    "mac": "84-D3-2A-D5-B2-5B",
+    "man": "IEEE\n1905.1",
+    "short": "84:D3:2A"
+  },
+  {
+    "mac": "48-6E-70-EF-C2-60",
+    "man": "Zhejiang\nTmall\nTechnology\nCo.,\nL...",
+    "short": "48:6E:70"
+  },
+  {
+    "mac": "00-18-19-4E-81-48",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:18:19"
+  },
+  {
+    "mac": "D8-79-88-07-65-FD",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "D8:79:88"
+  },
+  {
+    "mac": "8C-14-B4-65-42-0F",
+    "man": "zte\ncorporation",
+    "short": "8C:14:B4"
+  },
+  {
+    "mac": "50-2E-CE-98-2D-CA",
+    "man": "Asahi\nElectronics\nCo.,Ltd",
+    "short": "50:2E:CE"
+  },
+  {
+    "mac": "08-F4-58-35-F0-30",
+    "man": "Huawei\nDevice\nCo.,\nLtd.",
+    "short": "08:F4:58"
+  },
+  {
+    "mac": "D8-97-3B-20-8B-F8",
+    "man": "Artesyn\nEmbedded\nTechnologies",
+    "short": "D8:97:3B"
+  },
+  {
+    "mac": "FC-AF-AC-78-86-AC",
+    "man": "Socionext\nInc.",
+    "short": "FC:AF:AC"
+  },
+  {
+    "mac": "10-C3-AB-F2-9A-8E",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "10:C3:AB"
+  },
+  {
+    "mac": "00-80-4D-F3-B7-DF",
+    "man": "CYCLONE\nMICROSYSTEMS,\nINC.",
+    "short": "00:80:4D"
+  },
+  {
+    "mac": "00-22-51-E2-E8-82",
+    "man": "Lumasense\nTechnologies",
+    "short": "00:22:51"
+  },
+  {
+    "mac": "D0-D0-03-41-3A-9C",
+    "man": "Samsung\nElectronics\nCo.,LTD",
+    "short": "D0:D0:03"
+  },
+  {
+    "mac": "44-39-C4-6F-D2-D7",
+    "man": "Universal\nGlobal\nScientific\nIndu...",
+    "short": "44:39:C4"
+  },
+  {
+    "mac": "00-1E-44-9F-66-DD",
+    "man": "SANTEC",
+    "short": "00:1E:44"
+  },
+  {
+    "mac": "A0-DE-05-FC-B0-DC",
+    "man": "JSC\nIrbis-T",
+    "short": "A0:DE:05"
+  },
+  {
+    "mac": "58-B3-FC-3D-A9-44",
+    "man": "SHENZHEN\nRF-LINK\nTECHNOLOGY\nCO.,...",
+    "short": "58:B3:FC"
+  },
+  {
+    "mac": "B4-60-77-C1-70-8B",
+    "man": "Sichuan\nChanghong\nElectric\nLtd.",
+    "short": "B4:60:77"
+  },
+  {
+    "mac": "78-BD-BC-F8-A2-C2",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "78:BD:BC"
+  },
+  {
+    "mac": "00-1E-23-D8-33-C4",
+    "man": "Electronic\nEducational\nDevices,\n...",
+    "short": "00:1E:23"
+  },
+  {
+    "mac": "00-2F-5C-1F-78-6E",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:2F:5C"
+  },
+  {
+    "mac": "00-0B-2D-6E-DA-98",
+    "man": "Danfoss\nInc.",
+    "short": "00:0B:2D"
+  },
+  {
+    "mac": "40-1D-59-90-77-29",
+    "man": "Biometric\nAssociates,\nLP",
+    "short": "40:1D:59"
+  },
+  {
+    "mac": "00-30-BF-9B-55-34",
+    "man": "MULTIDATA\nGMBH",
+    "short": "00:30:BF"
+  },
+  {
+    "mac": "94-8A-C6-2B-0C-D6",
+    "man": "Realme\nChongqing\nMobile\nTelecomm...",
+    "short": "94:8A:C6"
+  },
+  {
+    "mac": "C4-14-3C-A5-68-9D",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "C4:14:3C"
+  },
+  {
+    "mac": "00-60-96-55-25-21",
+    "man": "T.S.\nMICROTECH\nINC.",
+    "short": "00:60:96"
+  },
+  {
+    "mac": "00-90-4C-0D-F4-1A",
+    "man": "Epigram,\nInc.",
+    "short": "00:90:4C"
+  },
+  {
+    "mac": "00-02-49-5A-C8-85",
+    "man": "Aviv\nInfocom\nCo,\nLtd.",
+    "short": "00:02:49"
+  },
+  {
+    "mac": "F8-0D-60-40-D7-94",
+    "man": "CANON\nINC.",
+    "short": "F8:0D:60"
+  },
+  {
+    "mac": "E0-0B-28-7D-37-A2",
+    "man": "Inovonics",
+    "short": "E0:0B:28"
+  },
+  {
+    "mac": "DC-E7-1C-27-00-1A",
+    "man": "AUG\nElektronik\nGmbH",
+    "short": "DC:E7:1C"
+  },
+  {
+    "mac": "F8-A2-D6-0D-61-0F",
+    "man": "Liteon\nTechnology\nCorporation",
+    "short": "F8:A2:D6"
+  },
+  {
+    "mac": "2C-81-58-9C-7C-ED",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "2C:81:58"
+  },
+  {
+    "mac": "54-66-6C-90-4E-BC",
+    "man": "Shenzhen\nYOUHUA\nTechnology\nCo.,\n...",
+    "short": "54:66:6C"
+  },
+  {
+    "mac": "FC-7F-56-B0-04-BA",
+    "man": "CoSyst\nControl\nSystems\nGmbH",
+    "short": "FC:7F:56"
+  },
+  {
+    "mac": "78-D3-8D-F9-9A-EB",
+    "man": "HONGKONG\nYUNLINK\nTECHNOLOGY\nLIMI...",
+    "short": "78:D3:8D"
+  },
+  {
+    "mac": "00-07-04-29-2B-79",
+    "man": "ALPS\nELECTRIC\nCO.,\nLTD.",
+    "short": "00:07:04"
+  },
+  {
+    "mac": "00-0F-C3-45-5F-D8",
+    "man": "PalmPalm\nTechnology,\nInc.",
+    "short": "00:0F:C3"
+  },
+  {
+    "mac": "94-4A-09-C4-50-2F",
+    "man": "BitWise\nControls",
+    "short": "94:4A:09"
+  },
+  {
+    "mac": "00-50-9C-F7-01-EA",
+    "man": "BETA\nRESEARCH",
+    "short": "00:50:9C"
+  },
+  {
+    "mac": "FC-C7-34-F7-2F-A3",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "FC:C7:34"
+  },
+  {
+    "mac": "98-E0-D9-0E-69-72",
+    "man": "Apple,\nInc.",
+    "short": "98:E0:D9"
+  },
+  {
+    "mac": "CC-F8-41-3C-DD-CD",
+    "man": "Lumewave",
+    "short": "CC:F8:41"
+  },
+  {
+    "mac": "00-73-8D-93-2F-CC",
+    "man": "Shenzhen\nTINNO\nMobile\nTechnology...",
+    "short": "00:73:8D"
+  },
+  {
+    "mac": "6C-50-4D-65-E9-05",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "6C:50:4D"
+  },
+  {
+    "mac": "C8-C6-4A-C9-56-64",
+    "man": "Flextronics\nTech.(Ind)\nPvt\nLtd",
+    "short": "C8:C6:4A"
+  },
+  {
+    "mac": "00-0C-9D-9C-A2-A9",
+    "man": "UbeeAirWalk,\nInc.",
+    "short": "00:0C:9D"
+  },
+  {
+    "mac": "90-72-82-03-D7-22",
+    "man": "Sagemcom\nBroadband\nSAS",
+    "short": "90:72:82"
+  },
+  {
+    "mac": "00-A0-19-55-CF-00",
+    "man": "NEBULA\nCONSULTANTS,\nINC.",
+    "short": "00:A0:19"
+  },
+  {
+    "mac": "00-D0-0B-34-54-2D",
+    "man": "RHK\nTECHNOLOGY,\nINC.",
+    "short": "00:D0:0B"
+  },
+  {
+    "mac": "5C-50-15-F4-A4-9F",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "5C:50:15"
+  },
+  {
+    "mac": "D4-D2-D6-C8-DA-A4",
+    "man": "FN-LINK\nTECHNOLOGY\nLIMITED",
+    "short": "D4:D2:D6"
+  },
+  {
+    "mac": "30-A9-DE-E9-2B-19",
+    "man": "LG\nInnotek",
+    "short": "30:A9:DE"
+  },
+  {
+    "mac": "00-20-3C-71-7B-64",
+    "man": "EUROTIME\nAB",
+    "short": "00:20:3C"
+  },
+  {
+    "mac": "00-0C-5E-31-53-FC",
+    "man": "Calypso\nMedical",
+    "short": "00:0C:5E"
+  },
+  {
+    "mac": "54-AE-27-8B-9B-72",
+    "man": "Apple,\nInc.",
+    "short": "54:AE:27"
+  },
+  {
+    "mac": "58-50-AB-53-70-AF",
+    "man": "TLS\nCorporation",
+    "short": "58:50:AB"
+  },
+  {
+    "mac": "3C-FB-96-F6-97-F7",
+    "man": "Emcraft\nSystems\nLLC",
+    "short": "3C:FB:96"
+  },
+  {
+    "mac": "04-36-04-FC-60-8C",
+    "man": "Gyeyoung\nI&T",
+    "short": "04:36:04"
+  },
+  {
+    "mac": "1C-72-1D-4B-66-11",
+    "man": "Dell\nInc.",
+    "short": "1C:72:1D"
+  },
+  {
+    "mac": "00-24-2E-E2-5D-C4",
+    "man": "Datastrip\nInc.",
+    "short": "00:24:2E"
+  },
+  {
+    "mac": "00-05-BA-11-9F-79",
+    "man": "Area\nNetwoeks,\nInc.",
+    "short": "00:05:BA"
+  },
+  {
+    "mac": "00-60-77-63-DE-F7",
+    "man": "PRISA\nNETWORKS",
+    "short": "00:60:77"
+  },
+  {
+    "mac": "74-51-BA-28-F2-D0",
+    "man": "Xiaomi\nCommunications\nCo\nLtd",
+    "short": "74:51:BA"
+  },
+  {
+    "mac": "00-1E-DE-20-95-F7",
+    "man": "BYD\nCOMPANY\nLIMITED",
+    "short": "00:1E:DE"
+  },
+  {
+    "mac": "10-3B-59-23-62-15",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "10:3B:59"
+  },
+  {
+    "mac": "00-11-0A-A1-A7-D6",
+    "man": "Hewlett\nPackard",
+    "short": "00:11:0A"
+  },
+  {
+    "mac": "00-00-F7-C1-DC-03",
+    "man": "YOUTH\nKEEP\nENTERPRISE\nCO\nLTD",
+    "short": "00:00:F7"
+  },
+  {
+    "mac": "84-47-65-00-63-75",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "84:47:65"
+  },
+  {
+    "mac": "EC-38-8F-42-5F-C5",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "EC:38:8F"
+  },
+  {
+    "mac": "6C-B2-AE-13-76-BA",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "6C:B2:AE"
+  },
+  {
+    "mac": "00-26-71-97-F9-77",
+    "man": "AUTOVISION\nCo.,\nLtd",
+    "short": "00:26:71"
+  },
+  {
+    "mac": "00-1C-CA-DE-A0-7A",
+    "man": "Shanghai\nGaozhi\nScience\n&\nTechno...",
+    "short": "00:1C:CA"
+  },
+  {
+    "mac": "C0-61-18-43-93-E7",
+    "man": "TP-LINK\nTECHNOLOGIES\nCO.,LTD.",
+    "short": "C0:61:18"
+  },
+  {
+    "mac": "00-02-0C-7A-13-73",
+    "man": "Metro-Optix",
+    "short": "00:02:0C"
+  },
+  {
+    "mac": "AC-06-13-7C-70-C2",
+    "man": "Senselogix\nLtd",
+    "short": "AC:06:13"
+  },
+  {
+    "mac": "00-2A-AF-9B-42-E3",
+    "man": "LARsys-Automation\nGmbH",
+    "short": "00:2A:AF"
+  },
+  {
+    "mac": "0C-A1-38-48-76-3B",
+    "man": "Blinq\nWireless\nInc.",
+    "short": "0C:A1:38"
+  },
+  {
+    "mac": "00-1F-75-26-70-F0",
+    "man": "GiBahn\nMedia",
+    "short": "00:1F:75"
+  },
+  {
+    "mac": "00-30-1D-15-83-6C",
+    "man": "SKYSTREAM,\nINC.",
+    "short": "00:30:1D"
+  },
+  {
+    "mac": "E4-A8-DF-7F-F7-75",
+    "man": "COMPAL\nINFORMATION\n(KUNSHAN)\nCO....",
+    "short": "E4:A8:DF"
+  },
+  {
+    "mac": "40-9F-C7-57-BA-7A",
+    "man": "BAEKCHUN\nI&C\nCo.,\nLtd.",
+    "short": "40:9F:C7"
+  },
+  {
+    "mac": "00-0F-F4-2A-F5-60",
+    "man": "Guntermann\n&\nDrunck\nGmbH",
+    "short": "00:0F:F4"
+  },
+  {
+    "mac": "70-4A-E4-38-CE-4C",
+    "man": "Rinstrum\nPty\nLtd",
+    "short": "70:4A:E4"
+  },
+  {
+    "mac": "3C-8C-93-A2-B1-D7",
+    "man": "Juniper\nNetworks",
+    "short": "3C:8C:93"
+  },
+  {
+    "mac": "00-1D-80-60-A1-C8",
+    "man": "Beijing\nHuahuan\nEletronics\nCo.,L...",
+    "short": "00:1D:80"
+  },
+  {
+    "mac": "CC-B6-91-CD-E3-E5",
+    "man": "NECMagnusCommunications",
+    "short": "CC:B6:91"
+  },
+  {
+    "mac": "00-0B-0A-5D-B1-DA",
+    "man": "dBm\nOptics",
+    "short": "00:0B:0A"
+  },
+  {
+    "mac": "D4-0B-1A-4D-54-BE",
+    "man": "HTC\nCorporation",
+    "short": "D4:0B:1A"
+  },
+  {
+    "mac": "00-23-55-C2-4C-06",
+    "man": "Kinco\nAutomation(Shanghai)\nLtd.",
+    "short": "00:23:55"
+  },
+  {
+    "mac": "B8-9B-C9-9B-11-8B",
+    "man": "SMC\nNetworks\nInc",
+    "short": "B8:9B:C9"
+  },
+  {
+    "mac": "E4-22-A5-BA-9B-04",
+    "man": "PLANTRONICS,\nINC.",
+    "short": "E4:22:A5"
+  },
+  {
+    "mac": "48-98-CA-E7-74-07",
+    "man": "Sichuan AI-Link Technology Co...",
+    "short": "48:98:CA"
+  },
+  {
+    "mac": "3C-FA-43-FF-DA-00",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "3C:FA:43"
+  },
+  {
+    "mac": "00-E0-B1-45-B4-9F",
+    "man": "Alcatel-Lucent\nEnterprise",
+    "short": "00:E0:B1"
+  },
+  {
+    "mac": "7C-B5-9B-6A-C9-49",
+    "man": "TP-LINK\nTECHNOLOGIES\nCO.,LTD.",
+    "short": "7C:B5:9B"
+  },
+  {
+    "mac": "00-90-40-87-5F-4C",
+    "man": "Siemens\nNetwork\nConvergence\nLLC",
+    "short": "00:90:40"
+  },
+  {
+    "mac": "A8-CC-C5-AA-13-C4",
+    "man": "Saab\nAB\n(publ)",
+    "short": "A8:CC:C5"
+  },
+  {
+    "mac": "00-11-76-FC-DF-3B",
+    "man": "Intellambda\nSystems,\nInc.",
+    "short": "00:11:76"
+  },
+  {
+    "mac": "E8-51-6E-89-E2-AE",
+    "man": "TSMART\nInc.",
+    "short": "E8:51:6E"
+  },
+  {
+    "mac": "E8-43-B6-49-F5-AA",
+    "man": "QNAP\nSystems,\nInc.",
+    "short": "E8:43:B6"
+  },
+  {
+    "mac": "C0-18-85-2A-83-B2",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "C0:18:85"
+  },
+  {
+    "mac": "C4-04-15-C9-83-0D",
+    "man": "NETGEAR",
+    "short": "C4:04:15"
+  },
+  {
+    "mac": "00-0D-58-A5-E5-80",
+    "man": "Private",
+    "short": "00:0D:58"
+  },
+  {
+    "mac": "00-25-0B-59-75-1F",
+    "man": "CENTROFACTOR\n\nINC",
+    "short": "00:25:0B"
+  },
+  {
+    "mac": "60-57-18-B6-54-04",
+    "man": "Intel\nCorporate",
+    "short": "60:57:18"
+  },
+  {
+    "mac": "00-03-6B-82-56-2C",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:03:6B"
+  },
+  {
+    "mac": "00-80-30-53-6C-3D",
+    "man": "NEXUS\nELECTRONICS",
+    "short": "00:80:30"
+  },
+  {
+    "mac": "00-12-B1-84-D4-58",
+    "man": "Dai\nNippon\nPrinting\nCo.,\nLtd",
+    "short": "00:12:B1"
+  },
+  {
+    "mac": "98-3B-8F-97-76-81",
+    "man": "Intel\nCorporate",
+    "short": "98:3B:8F"
+  },
+  {
+    "mac": "94-9D-57-53-BE-DD",
+    "man": "Panasonic\ndo\nBrasil\nLimitada",
+    "short": "94:9D:57"
+  },
+  {
+    "mac": "94-3B-B0-85-2F-EB",
+    "man": "New\nH3C\nTechnologies\nCo.,\nLtd",
+    "short": "94:3B:B0"
+  },
+  {
+    "mac": "08-7B-AA-2E-83-33",
+    "man": "SVYAZKOMPLEKTSERVICE,\nLLC",
+    "short": "08:7B:AA"
+  },
+  {
+    "mac": "EC-38-8F-94-81-3D",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "EC:38:8F"
+  },
+  {
+    "mac": "00-23-EC-E6-FD-1A",
+    "man": "Algorithmix\nGmbH",
+    "short": "00:23:EC"
+  },
+  {
+    "mac": "00-18-08-52-43-97",
+    "man": "SightLogix,\nInc.",
+    "short": "00:18:08"
+  },
+  {
+    "mac": "60-EE-5C-3F-D0-E5",
+    "man": "SHENZHEN\nFAST\nTECHNOLOGIES\nCO.,L...",
+    "short": "60:EE:5C"
+  },
+  {
+    "mac": "B8-63-4D-69-C6-96",
+    "man": "Apple,\nInc.",
+    "short": "B8:63:4D"
+  },
+  {
+    "mac": "88-A4-79-6D-7B-3A",
+    "man": "Apple,\nInc.",
+    "short": "88:A4:79"
+  },
+  {
+    "mac": "84-7D-50-C5-8C-EE",
+    "man": "Holley\nMetering\nLimited",
+    "short": "84:7D:50"
+  },
+  {
+    "mac": "A0-D7-95-FF-FD-C6",
+    "man": "Apple,\nInc.",
+    "short": "A0:D7:95"
+  },
+  {
+    "mac": "00-1C-68-AE-06-4F",
+    "man": "Anhui\nSun\nCreate\nElectronics\nCo....",
+    "short": "00:1C:68"
+  },
+  {
+    "mac": "00-27-04-7C-1B-EC",
+    "man": "Accelerated\nConcepts,\nInc",
+    "short": "00:27:04"
+  },
+  {
+    "mac": "00-0B-C2-13-C4-11",
+    "man": "Corinex\nCommunication\nCorp.",
+    "short": "00:0B:C2"
+  },
+  {
+    "mac": "00-50-6C-3C-90-E8",
+    "man": "Beijer\nElectronics\nProducts\nAB",
+    "short": "00:50:6C"
+  },
+  {
+    "mac": "40-9B-CD-43-0C-1B",
+    "man": "D-Link\nInternational",
+    "short": "40:9B:CD"
+  },
+  {
+    "mac": "88-D9-62-88-2B-B5",
+    "man": "Canopus\nSystems\nUS\nLLC",
+    "short": "88:D9:62"
+  },
+  {
+    "mac": "00-01-5E-4B-FA-55",
+    "man": "BEST\nTECHNOLOGY\nCO.,\nLTD.",
+    "short": "00:01:5E"
+  },
+  {
+    "mac": "00-0F-C8-9D-B3-21",
+    "man": "Chantry\nNetworks",
+    "short": "00:0F:C8"
+  },
+  {
+    "mac": "00-90-62-1A-37-A9",
+    "man": "ICP\nVORTEX\nCOMPUTERSYSTEME\nGmbH",
+    "short": "00:90:62"
+  },
+  {
+    "mac": "A4-44-D1-01-E9-96",
+    "man": "Wingtech\nGroup\n(HongKong）Limit...",
+    "short": "A4:44:D1"
+  },
+  {
+    "mac": "00-E0-CB-00-1D-CD",
+    "man": "RESON,\nINC.",
+    "short": "00:E0:CB"
+  },
+  {
+    "mac": "E0-19-D8-42-26-0E",
+    "man": "BH\nTECHNOLOGIES",
+    "short": "E0:19:D8"
+  },
+  {
+    "mac": "00-1B-35-19-4E-97",
+    "man": "ChongQing\nJINOU\nScience\n&\nTechno...",
+    "short": "00:1B:35"
+  },
+  {
+    "mac": "00-24-08-48-F4-00",
+    "man": "Pacific\nBiosciences",
+    "short": "00:24:08"
+  },
+  {
+    "mac": "00-01-20-C5-48-AB",
+    "man": "OSCILLOQUARTZ\nS.A.",
+    "short": "00:01:20"
+  },
+  {
+    "mac": "4C-D9-C4-8E-98-DC",
+    "man": "Magneti\nMarelli\nAutomotive\nElect...",
+    "short": "4C:D9:C4"
+  },
+  {
+    "mac": "00-0E-89-9A-A4-26",
+    "man": "CLEMATIC",
+    "short": "00:0E:89"
+  },
+  {
+    "mac": "F8-A9-63-2A-82-0F",
+    "man": "COMPAL\nINFORMATION\n(KUNSHAN)\nCO....",
+    "short": "F8:A9:63"
+  },
+  {
+    "mac": "00-1E-8A-40-C3-22",
+    "man": "eCopy,\nInc",
+    "short": "00:1E:8A"
+  },
+  {
+    "mac": "1C-8E-5C-5C-BE-25",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "1C:8E:5C"
+  },
+  {
+    "mac": "A0-9B-12-93-9D-63",
+    "man": "China\nMobile\nIOT\nCompany\nLimited",
+    "short": "A0:9B:12"
+  },
+  {
+    "mac": "00-E0-F2-EC-79-3D",
+    "man": "ARLOTTO\nCOMNET,\nINC.",
+    "short": "00:E0:F2"
+  },
+  {
+    "mac": "54-04-A6-9F-73-F2",
+    "man": "ASUSTek\nCOMPUTER\nINC.",
+    "short": "54:04:A6"
+  },
+  {
+    "mac": "00-80-40-01-F4-DD",
+    "man": "JOHN\nFLUKE\nMANUFACTURING\nCO.",
+    "short": "00:80:40"
+  },
+  {
+    "mac": "98-90-80-48-BB-B5",
+    "man": "Linkpower\nNetwork\nSystem\nInc\nLtd...",
+    "short": "98:90:80"
+  },
+  {
+    "mac": "00-90-A0-5A-97-F7",
+    "man": "8X8\nINC.",
+    "short": "00:90:A0"
+  },
+  {
+    "mac": "A4-ED-4E-CB-C1-D5",
+    "man": "ARRIS\nGroup,\nInc.",
+    "short": "A4:ED:4E"
+  },
+  {
+    "mac": "00-E0-24-D9-0F-7D",
+    "man": "GADZOOX\nNETWORKS",
+    "short": "00:E0:24"
+  },
+  {
+    "mac": "00-07-EC-57-2B-41",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:07:EC"
+  },
+  {
+    "mac": "EC-D0-0E-00-E4-5B",
+    "man": "MiraeRecognition\nCo.,\nLtd.",
+    "short": "EC:D0:0E"
+  },
+  {
+    "mac": "00-14-61-65-5A-A7",
+    "man": "CORONA\nCORPORATION",
+    "short": "00:14:61"
+  },
+  {
+    "mac": "00-0F-6D-48-E3-64",
+    "man": "Midas\nEngineering",
+    "short": "00:0F:6D"
+  },
+  {
+    "mac": "00-05-5F-C8-9B-44",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:05:5F"
+  },
+  {
+    "mac": "34-68-4A-06-EA-6D",
+    "man": "Teraworks\nCo.,\nLtd.",
+    "short": "34:68:4A"
+  },
+  {
+    "mac": "FC-9B-C6-2E-87-0F",
+    "man": "Sumavision\nTechnologies\nCo.,Ltd",
+    "short": "FC:9B:C6"
+  },
+  {
+    "mac": "84-FC-AC-FE-85-86",
+    "man": "Apple,\nInc.",
+    "short": "84:FC:AC"
+  },
+  {
+    "mac": "CC-1B-E0-F7-C5-54",
+    "man": "IEEE\nRegistration\nAuthority",
+    "short": "CC:1B:E0"
+  },
+  {
+    "mac": "28-C6-71-FA-7D-96",
+    "man": "Yota\nDevices\nOY",
+    "short": "28:C6:71"
+  },
+  {
+    "mac": "B8-BD-79-97-D3-2F",
+    "man": "TrendPoint\nSystems",
+    "short": "B8:BD:79"
+  },
+  {
+    "mac": "FC-B4-E6-C7-3C-1D",
+    "man": "ASKEY\nCOMPUTER\nCORP",
+    "short": "FC:B4:E6"
+  },
+  {
+    "mac": "20-64-CB-9A-C9-BA",
+    "man": "GUANGDONG\nOPPO\nMOBILE\nTELECOMMUN...",
+    "short": "20:64:CB"
+  },
+  {
+    "mac": "10-FE-ED-D6-8B-C5",
+    "man": "TP-LINK\nTECHNOLOGIES\nCO.,LTD.",
+    "short": "10:FE:ED"
+  },
+  {
+    "mac": "0C-73-BE-E2-F1-57",
+    "man": "Dongguan\nHaimai\nElectronie\nTechn...",
+    "short": "0C:73:BE"
+  },
+  {
+    "mac": "00-0A-57-CE-E9-17",
+    "man": "Hewlett\nPackard",
+    "short": "00:0A:57"
+  },
+  {
+    "mac": "2C-CD-69-48-5C-C9",
+    "man": "Aqavi.com",
+    "short": "2C:CD:69"
+  },
+  {
+    "mac": "C4-19-D1-99-66-77",
+    "man": "Telink\nSemiconductor\n(Shanghai)\n...",
+    "short": "C4:19:D1"
+  },
+  {
+    "mac": "18-34-51-8B-EB-A6",
+    "man": "Apple,\nInc.",
+    "short": "18:34:51"
+  },
+  {
+    "mac": "00-0C-AA-15-05-7C",
+    "man": "Cubic\nTransportation\nSystems\nInc",
+    "short": "00:0C:AA"
+  },
+  {
+    "mac": "90-B1-1C-C5-E9-EF",
+    "man": "Dell\nInc.",
+    "short": "90:B1:1C"
+  },
+  {
+    "mac": "64-BA-BD-ED-D6-D2",
+    "man": "SDJ\nTechnologies,\nInc.",
+    "short": "64:BA:BD"
+  },
+  {
+    "mac": "0C-89-10-F9-51-7F",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "0C:89:10"
+  },
+  {
+    "mac": "00-02-4D-C0-6F-B0",
+    "man": "Mannesman\nDematic\nColby\nPty.\nLtd...",
+    "short": "00:02:4D"
+  },
+  {
+    "mac": "6C-64-1A-E6-4E-0A",
+    "man": "Penguin\nComputing",
+    "short": "6C:64:1A"
+  },
+  {
+    "mac": "00-06-BA-34-58-3A",
+    "man": "Westwave\nCommunications",
+    "short": "00:06:BA"
+  },
+  {
+    "mac": "00-00-3B-1B-B1-77",
+    "man": "i\nControls,\nInc.",
+    "short": "00:00:3B"
+  },
+  {
+    "mac": "00-1B-AA-77-39-A2",
+    "man": "XenICs\nnv",
+    "short": "00:1B:AA"
+  },
+  {
+    "mac": "00-50-D7-E1-90-E7",
+    "man": "TELSTRAT",
+    "short": "00:50:D7"
+  },
+  {
+    "mac": "00-05-F8-3B-35-8D",
+    "man": "Real\nTime\nAccess,\nInc.",
+    "short": "00:05:F8"
+  },
+  {
+    "mac": "CC-20-E8-46-94-35",
+    "man": "Apple,\nInc.",
+    "short": "CC:20:E8"
+  },
+  {
+    "mac": "08-00-8B-A3-9A-DD",
+    "man": "PYRAMID\nTECHNOLOGY\nCORP.",
+    "short": "08:00:8B"
+  },
+  {
+    "mac": "50-51-A9-12-A7-D6",
+    "man": "Texas\nInstruments",
+    "short": "50:51:A9"
+  },
+  {
+    "mac": "00-22-9B-35-CB-05",
+    "man": "AverLogic\nTechnologies,\nInc.",
+    "short": "00:22:9B"
+  },
+  {
+    "mac": "00-05-C6-E3-A9-73",
+    "man": "Triz\nCommunications",
+    "short": "00:05:C6"
+  },
+  {
+    "mac": "64-6E-EA-5F-AE-B0",
+    "man": "Iskratel\nd.o.o.",
+    "short": "64:6E:EA"
+  },
+  {
+    "mac": "00-17-5F-81-99-7C",
+    "man": "XENOLINK\nCommunications\nCo.,\nLtd...",
+    "short": "00:17:5F"
+  },
+  {
+    "mac": "78-C5-F8-0B-22-63",
+    "man": "Huawei\nDevice\nCo.,\nLtd.",
+    "short": "78:C5:F8"
+  },
+  {
+    "mac": "98-10-E8-B9-84-1F",
+    "man": "Apple,\nInc.",
+    "short": "98:10:E8"
+  },
+  {
+    "mac": "3C-83-1E-70-ED-BB",
+    "man": "CKD\nCorporation",
+    "short": "3C:83:1E"
+  },
+  {
+    "mac": "C0-4D-F7-43-37-54",
+    "man": "SERELEC",
+    "short": "C0:4D:F7"
+  },
+  {
+    "mac": "08-00-43-BB-96-94",
+    "man": "PIXEL\nCOMPUTER\nINC.",
+    "short": "08:00:43"
+  },
+  {
+    "mac": "00-1C-B5-71-3C-7C",
+    "man": "Neihua\nNetwork\nTechnology\nCo.,LT...",
+    "short": "00:1C:B5"
+  },
+  {
+    "mac": "D8-BC-59-00-0C-F7",
+    "man": "Shenzhen\nDAPU\nMicroelectronics\nC...",
+    "short": "D8:BC:59"
+  },
+  {
+    "mac": "00-05-43-4D-AF-61",
+    "man": "IQ\nWireless\nGmbH",
+    "short": "00:05:43"
+  },
+  {
+    "mac": "00-18-ED-F8-EC-11",
+    "man": "Accutech\nUltrasystems\nCo.,\nLtd.",
+    "short": "00:18:ED"
+  },
+  {
+    "mac": "00-A0-EC-7A-60-15",
+    "man": "TRANSMITTON\nLTD.",
+    "short": "00:A0:EC"
+  },
+  {
+    "mac": "74-BE-08-76-FC-C7",
+    "man": "ATEK\nProducts,\nLLC",
+    "short": "74:BE:08"
+  },
+  {
+    "mac": "F4-29-81-7C-64-60",
+    "man": "vivo\nMobile\nCommunication\nCo.,\nL...",
+    "short": "F4:29:81"
+  },
+  {
+    "mac": "FC-64-BA-AC-B4-0B",
+    "man": "Xiaomi\nCommunications\nCo\nLtd",
+    "short": "FC:64:BA"
+  },
+  {
+    "mac": "00-24-D5-0E-CD-C2",
+    "man": "Winward\nIndustrial\nLimited",
+    "short": "00:24:D5"
+  },
+  {
+    "mac": "88-3B-8B-1D-16-65",
+    "man": "Cheering\nConnection\nCo.\nLtd.",
+    "short": "88:3B:8B"
+  },
+  {
+    "mac": "D4-9A-A0-B9-12-52",
+    "man": "VNPT\nTECHNOLOGY",
+    "short": "D4:9A:A0"
+  },
+  {
+    "mac": "4C-71-0C-CB-24-60",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "4C:71:0C"
+  },
+  {
+    "mac": "94-B1-0A-AF-81-85",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "94:B1:0A"
+  },
+  {
+    "mac": "00-0C-39-35-65-2F",
+    "man": "Sentinel\nWireless\nInc.",
+    "short": "00:0C:39"
+  },
+  {
+    "mac": "00-1C-08-EB-C4-2C",
+    "man": "Echo360,\nInc.",
+    "short": "00:1C:08"
+  },
+  {
+    "mac": "00-14-BE-D4-D3-CF",
+    "man": "Wink\ncommunication\ntechnology\nCO...",
+    "short": "00:14:BE"
+  },
+  {
+    "mac": "CC-37-AB-74-43-31",
+    "man": "Edgecore\nNetworks\nCorporation",
+    "short": "CC:37:AB"
+  },
+  {
+    "mac": "3C-2A-F4-46-29-BC",
+    "man": "Brother\nIndustries,\nLTD.",
+    "short": "3C:2A:F4"
+  },
+  {
+    "mac": "F8-5C-4D-D2-E6-BA",
+    "man": "Nokia",
+    "short": "F8:5C:4D"
+  },
+  {
+    "mac": "44-D6-3D-94-5D-36",
+    "man": "Talari\nNetworks",
+    "short": "44:D6:3D"
+  },
+  {
+    "mac": "D4-81-CA-D5-9C-88",
+    "man": "iDevices,\nLLC",
+    "short": "D4:81:CA"
+  },
+  {
+    "mac": "BC-5F-F4-3F-30-FC",
+    "man": "ASRock\nIncorporation",
+    "short": "BC:5F:F4"
+  },
+  {
+    "mac": "00-30-C6-59-77-93",
+    "man": "CONTROL\nSOLUTIONS,\nINC.",
+    "short": "00:30:C6"
+  },
+  {
+    "mac": "00-0D-9B-24-D2-1D",
+    "man": "Heraeus\nElectro-Nite\nInternation...",
+    "short": "00:0D:9B"
+  },
+  {
+    "mac": "00-0A-61-2F-F8-58",
+    "man": "Cellinx\nSystems\nInc.",
+    "short": "00:0A:61"
+  },
+  {
+    "mac": "28-F1-0E-36-EB-60",
+    "man": "Dell\nInc.",
+    "short": "28:F1:0E"
+  },
+  {
+    "mac": "78-17-BE-B7-C0-E1",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "78:17:BE"
+  },
+  {
+    "mac": "00-40-95-EB-4C-EC",
+    "man": "R.P.T.\nINTERGROUPS\nINT'L\nLTD.",
+    "short": "00:40:95"
+  },
+  {
+    "mac": "E8-15-0E-B6-DE-D3",
+    "man": "Nokia\nCorporation",
+    "short": "E8:15:0E"
+  },
+  {
+    "mac": "C0-85-4C-29-0D-21",
+    "man": "Ragentek\nTechnology\nGroup",
+    "short": "C0:85:4C"
+  },
+  {
+    "mac": "00-A0-F7-D9-F0-F3",
+    "man": "V.I\nCOMPUTER\nCORP.",
+    "short": "00:A0:F7"
+  },
+  {
+    "mac": "3C-78-73-12-6A-A8",
+    "man": "Airsonics",
+    "short": "3C:78:73"
+  },
+  {
+    "mac": "00-90-AE-17-3E-47",
+    "man": "ITALTEL\nS.p.A/RF-UP-I",
+    "short": "00:90:AE"
+  },
+  {
+    "mac": "00-16-69-FF-07-3D",
+    "man": "MRV\nCommunication\n(Networks)\nLTD",
+    "short": "00:16:69"
+  },
+  {
+    "mac": "00-10-CB-D3-42-25",
+    "man": "FACIT\nK.K.",
+    "short": "00:10:CB"
+  },
+  {
+    "mac": "08-00-28-A4-1D-09",
+    "man": "Texas\nInstruments",
+    "short": "08:00:28"
+  },
+  {
+    "mac": "A8-81-F1-AE-67-8A",
+    "man": "BMEYE\nB.V.",
+    "short": "A8:81:F1"
+  },
+  {
+    "mac": "00-24-99-90-24-9F",
+    "man": "Aquila\nTechnologies",
+    "short": "00:24:99"
+  },
+  {
+    "mac": "C8-77-8B-56-B9-37",
+    "man": "Mercury\nSystems\n–\nTrusted\nMiss...",
+    "short": "C8:77:8B"
+  },
+  {
+    "mac": "48-98-CA-4C-12-0E",
+    "man": "Sichuan\nAI-Link\nTechnology\nCo...",
+    "short": "48:98:CA"
+  },
+  {
+    "mac": "40-82-56-8F-37-BB",
+    "man": "Continental\nAutomotive\nGmbH",
+    "short": "40:82:56"
+  },
+  {
+    "mac": "94-44-52-FC-DB-8C",
+    "man": "Belkin\nInternational\nInc.",
+    "short": "94:44:52"
+  },
+  {
+    "mac": "3C-F0-11-1D-C7-CD",
+    "man": "Intel\nCorporate",
+    "short": "3C:F0:11"
+  },
+  {
+    "mac": "00-24-78-A5-C1-7B",
+    "man": "Mag\nTech\nElectronics\nCo\nLimited",
+    "short": "00:24:78"
+  },
+  {
+    "mac": "4C-39-10-78-28-C6",
+    "man": "Newtek\nElectronics\nco.,\nLtd.",
+    "short": "4C:39:10"
+  },
+  {
+    "mac": "50-38-2F-B1-17-09",
+    "man": "ASE\nGroup\nChung-Li",
+    "short": "50:38:2F"
+  },
+  {
+    "mac": "00-03-11-82-71-5A",
+    "man": "Micro\nTechnology\nCo.,\nLtd.",
+    "short": "00:03:11"
+  },
+  {
+    "mac": "E8-DE-D6-03-DF-F8",
+    "man": "Intrising\nNetworks,\nInc.",
+    "short": "E8:DE:D6"
+  },
+  {
+    "mac": "00-01-79-F1-AF-33",
+    "man": "WIRELESS\nTECHNOLOGY,\nINC.",
+    "short": "00:01:79"
+  },
+  {
+    "mac": "AC-D1-B8-F8-69-86",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "AC:D1:B8"
+  },
+  {
+    "mac": "F4-03-21-52-DF-A4",
+    "man": "BeNeXt\nB.V.",
+    "short": "F4:03:21"
+  },
+  {
+    "mac": "28-17-CE-46-C0-3A",
+    "man": "Omnisense\nLtd",
+    "short": "28:17:CE"
+  },
+  {
+    "mac": "F8-D1-11-62-DB-15",
+    "man": "TP-LINK\nTECHNOLOGIES\nCO.,LTD.",
+    "short": "F8:D1:11"
+  },
+  {
+    "mac": "60-1E-02-39-23-D1",
+    "man": "EltexAlatau",
+    "short": "60:1E:02"
+  },
+  {
+    "mac": "00-10-27-AC-39-5B",
+    "man": "L-3\nCOMMUNICATIONS\nEAST",
+    "short": "00:10:27"
+  },
+  {
+    "mac": "00-0B-F0-64-AC-77",
+    "man": "MoTEX\nProducts\nCo.,\nLtd.",
+    "short": "00:0B:F0"
+  },
+  {
+    "mac": "0C-8A-87-25-92-03",
+    "man": "AgLogica\nHoldings,\nInc",
+    "short": "0C:8A:87"
+  },
+  {
+    "mac": "A0-3C-31-DF-43-50",
+    "man": "Shenzhen\nBelon\nTechnology\nCO.,LT...",
+    "short": "A0:3C:31"
+  },
+  {
+    "mac": "00-10-1F-AF-DB-28",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:10:1F"
+  },
+  {
+    "mac": "AC-06-13-28-62-DB",
+    "man": "Senselogix\nLtd",
+    "short": "AC:06:13"
+  },
+  {
+    "mac": "00-D0-6E-05-4F-66",
+    "man": "TRENDVIEW\nRECORDERS\nLTD.",
+    "short": "00:D0:6E"
+  },
+  {
+    "mac": "80-B6-24-82-4F-7B",
+    "man": "IVS",
+    "short": "80:B6:24"
+  },
+  {
+    "mac": "B8-24-1A-BC-12-51",
+    "man": "SWEDA\nINFORMATICA\nLTDA",
+    "short": "B8:24:1A"
+  },
+  {
+    "mac": "00-16-CE-9A-40-03",
+    "man": "Hon\nHai\nPrecision\nInd.\nCo.,Ltd.",
+    "short": "00:16:CE"
+  },
+  {
+    "mac": "C0-F4-E6-A3-BA-77",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "C0:F4:E6"
+  },
+  {
+    "mac": "FC-91-14-D9-77-90",
+    "man": "Technicolor\nCH\nUSA\nInc.",
+    "short": "FC:91:14"
+  },
+  {
+    "mac": "80-69-33-0A-AA-31",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "80:69:33"
+  },
+  {
+    "mac": "BC-EA-FA-35-CE-CD",
+    "man": "Hewlett\nPackard",
+    "short": "BC:EA:FA"
+  },
+  {
+    "mac": "BC-74-D7-DB-B2-E3",
+    "man": "HangZhou\nJuRu\nTechnology\nCO.,LTD",
+    "short": "BC:74:D7"
+  },
+  {
+    "mac": "50-C4-DD-9A-D0-E8",
+    "man": "BUFFALO.INC",
+    "short": "50:C4:DD"
+  },
+  {
+    "mac": "28-32-C5-F5-8C-62",
+    "man": "HUMAX\nCo.,\nLtd.",
+    "short": "28:32:C5"
+  },
+  {
+    "mac": "00-D0-CD-D7-5F-DC",
+    "man": "ATAN\nTECHNOLOGY\nINC.",
+    "short": "00:D0:CD"
+  },
+  {
+    "mac": "00-0F-0B-C0-9D-B3",
+    "man": "Kentima\nTechnologies\nAB",
+    "short": "00:0F:0B"
+  },
+  {
+    "mac": "B8-31-B5-63-54-60",
+    "man": "Microsoft\nCorporation",
+    "short": "B8:31:B5"
+  },
+  {
+    "mac": "08-F6-9C-ED-C0-A9",
+    "man": "Apple,\nInc.",
+    "short": "08:F6:9C"
+  },
+  {
+    "mac": "00-1B-44-A6-87-23",
+    "man": "SanDisk\nCorporation",
+    "short": "00:1B:44"
+  },
+  {
+    "mac": "00-AB-48-3B-54-77",
+    "man": "eero\ninc.",
+    "short": "00:AB:48"
+  },
+  {
+    "mac": "00-80-FB-C9-EB-7E",
+    "man": "BVM\nLIMITED",
+    "short": "00:80:FB"
+  },
+  {
+    "mac": "00-22-3A-11-F5-F1",
+    "man": "Cisco\nSPVTG",
+    "short": "00:22:3A"
+  },
+  {
+    "mac": "00-13-75-D8-BE-93",
+    "man": "American\nSecurity\nProducts\nCo.",
+    "short": "00:13:75"
+  },
+  {
+    "mac": "94-D4-69-62-E4-D3",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "94:D4:69"
+  },
+  {
+    "mac": "00-13-5F-65-90-E4",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:13:5F"
+  },
+  {
+    "mac": "00-01-AB-E4-54-E5",
+    "man": "Main\nStreet\nNetworks",
+    "short": "00:01:AB"
+  },
+  {
+    "mac": "00-13-83-4C-EB-41",
+    "man": "Application\nTechnologies\nand\nEng...",
+    "short": "00:13:83"
+  },
+  {
+    "mac": "00-80-EA-ED-7F-C2",
+    "man": "ADVA\nOptical\nNetworking\nLtd.",
+    "short": "00:80:EA"
+  },
+  {
+    "mac": "00-0E-E2-52-2F-35",
+    "man": "Custom\nEngineering",
+    "short": "00:0E:E2"
+  },
+  {
+    "mac": "00-09-7B-39-8C-10",
+    "man": "Cisco\nSystems,\nInc",
+    "short": "00:09:7B"
+  },
+  {
+    "mac": "24-87-07-63-8B-9E",
+    "man": "SEnergy\nCorporation",
+    "short": "24:87:07"
+  },
+  {
+    "mac": "00-15-1C-C7-DC-E0",
+    "man": "LENECO",
+    "short": "00:15:1C"
+  },
+  {
+    "mac": "00-A0-A6-12-96-2B",
+    "man": "M.I.\nSYSTEMS,\nK.K.",
+    "short": "00:A0:A6"
+  },
+  {
+    "mac": "00-1A-F9-27-2B-A7",
+    "man": "AeroVIronment\n(AV\nInc)",
+    "short": "00:1A:F9"
+  },
+  {
+    "mac": "D8-FE-E3-9A-83-9F",
+    "man": "D-Link\nInternational",
+    "short": "D8:FE:E3"
+  },
+  {
+    "mac": "F8-23-87-03-49-5D",
+    "man": "Shenzhen\nHorn\nAudio\nCo.,Ltd.",
+    "short": "F8:23:87"
+  },
+  {
+    "mac": "00-23-E0-60-98-66",
+    "man": "INO\nTherapeutics\nLLC",
+    "short": "00:23:E0"
+  },
+  {
+    "mac": "00-A0-12-F5-B5-C0",
+    "man": "Telco\nSystems,\nInc.",
+    "short": "00:A0:12"
+  },
+  {
+    "mac": "90-AF-D1-FA-73-2D",
+    "man": "netKTI\nCo.,\nLtd",
+    "short": "90:AF:D1"
+  },
+  {
+    "mac": "00-13-F0-52-E2-D5",
+    "man": "Wavefront\nSemiconductor",
+    "short": "00:13:F0"
+  },
+  {
+    "mac": "A8-62-A2-5A-1A-26",
+    "man": "JIWUMEDIA\nCO.,\nLTD.",
+    "short": "A8:62:A2"
+  },
+  {
+    "mac": "00-09-1D-73-5E-B2",
+    "man": "Proteam\nComputer\nCorporation",
+    "short": "00:09:1D"
+  },
+  {
+    "mac": "70-70-4C-5E-FB-64",
+    "man": "Purple\nCommunications,\nInc",
+    "short": "70:70:4C"
+  },
+  {
+    "mac": "00-14-BB-72-EA-C7",
+    "man": "Open\nInterface\nNorth\nAmerica",
+    "short": "00:14:BB"
+  },
+  {
+    "mac": "C0-BD-42-D9-D9-BF",
+    "man": "ZPA\nSmart\nEnergy\na.s.",
+    "short": "C0:BD:42"
+  },
+  {
+    "mac": "00-0D-22-75-B6-09",
+    "man": "Unitronics\nLTD",
+    "short": "00:0D:22"
+  },
+  {
+    "mac": "A4-B8-18-DA-21-50",
+    "man": "PENTA\nGesellschaft\nfür\nelektron...",
+    "short": "A4:B8:18"
+  },
+  {
+    "mac": "00-0D-A6-C2-35-01",
+    "man": "Universal\nSwitching\nCorporation",
+    "short": "00:0D:A6"
+  },
+  {
+    "mac": "00-1F-81-C5-67-61",
+    "man": "Accel\nSemiconductor\nCorp",
+    "short": "00:1F:81"
+  },
+  {
+    "mac": "00-20-DA-C2-05-27",
+    "man": "Alcatel-Lucent\nEnterprise",
+    "short": "00:20:DA"
+  },
+  {
+    "mac": "00-12-15-80-41-B0",
+    "man": "iStor\nNetworks,\nInc.",
+    "short": "00:12:15"
+  },
+  {
+    "mac": "E4-A7-49-85-E4-1E",
+    "man": "Palo\nAlto\nNetworks",
+    "short": "E4:A7:49"
+  },
+  {
+    "mac": "3C-BB-FD-D8-AC-51",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "3C:BB:FD"
+  },
+  {
+    "mac": "00-21-99-35-4B-B6",
+    "man": "Vacon\nPlc",
+    "short": "00:21:99"
+  },
+  {
+    "mac": "0C-DD-24-70-EE-37",
+    "man": "Intel\nCorporate",
+    "short": "0C:DD:24"
+  },
+  {
+    "mac": "00-22-8E-BC-B5-11",
+    "man": "TV-NUMERIC",
+    "short": "00:22:8E"
+  },
+  {
+    "mac": "00-24-36-0D-77-B4",
+    "man": "Apple,\nInc.",
+    "short": "00:24:36"
+  },
+  {
+    "mac": "00-1E-5F-39-3A-10",
+    "man": "KwikByte,\nLLC",
+    "short": "00:1E:5F"
+  },
+  {
+    "mac": "A4-3E-A0-BD-3B-03",
+    "man": "iComm\nHK\nLIMITED",
+    "short": "A4:3E:A0"
+  },
+  {
+    "mac": "74-4B-E9-F3-55-0D",
+    "man": "EXPLORER\nHYPERTECH\nCO.,LTD",
+    "short": "74:4B:E9"
+  },
+  {
+    "mac": "00-0D-38-6B-54-5F",
+    "man": "NISSIN\nINC.",
+    "short": "00:0D:38"
+  },
+  {
+    "mac": "08-03-42-E1-E9-4D",
+    "man": "Palo\nAlto\nNetworks",
+    "short": "08:03:42"
+  },
+  {
+    "mac": "EC-84-B4-89-EA-C5",
+    "man": "CIG\nSHANGHAI\nCO\nLTD",
+    "short": "EC:84:B4"
+  },
+  {
+    "mac": "6C-DE-A9-E8-40-FA",
+    "man": "Cisco\nMeraki",
+    "short": "6C:DE:A9"
+  },
+  {
+    "mac": "D0-2C-45-3B-CD-32",
+    "man": "littleBits\nElectronics,\nInc.",
+    "short": "D0:2C:45"
+  },
+  {
+    "mac": "DC-37-52-C4-05-8C",
+    "man": "GE",
+    "short": "DC:37:52"
+  },
+  {
+    "mac": "00-E0-52-83-D2-3E",
+    "man": "Brocade\nCommunications\nSystems\nL...",
+    "short": "00:E0:52"
+  },
+  {
+    "mac": "00-12-24-C3-58-90",
+    "man": "NexQL\nCorporation",
+    "short": "00:12:24"
+  },
+  {
+    "mac": "54-15-89-C2-69-D8",
+    "man": "MCS\nLogic\nInc.",
+    "short": "54:15:89"
+  },
+  {
+    "mac": "90-92-B4-27-D4-1B",
+    "man": "Diehl\nBGT\nDefence\nGmbH\n&\nCo.\nKG",
+    "short": "90:92:B4"
+  },
+  {
+    "mac": "00-16-2E-AE-96-1B",
+    "man": "Space\nShuttle\nHi-Tech\nCo.,\nLtd.",
+    "short": "00:16:2E"
+  },
+  {
+    "mac": "AC-E0-10-21-0D-F4",
+    "man": "Liteon\nTechnology\nCorporation",
+    "short": "AC:E0:10"
+  },
+  {
+    "mac": "00-0C-3F-CC-FA-9A",
+    "man": "Cogent\nDefence\n&\nSecurity\nNetwor...",
+    "short": "00:0C:3F"
+  },
+  {
+    "mac": "00-20-29-3E-8F-C7",
+    "man": "TELEPROCESSING\nPRODUCTS,\nINC.",
+    "short": "00:20:29"
+  },
+  {
+    "mac": "58-C5-CB-1A-39-03",
+    "man": "Samsung\nElectronics\nCo.,Ltd",
+    "short": "58:C5:CB"
+  },
+  {
+    "mac": "00-08-66-75-CA-BB",
+    "man": "DSX\nAccess\nSystems,\nInc.",
+    "short": "00:08:66"
+  },
+  {
+    "mac": "20-DC-93-65-CE-95",
+    "man": "Cheetah\nHi-Tech,\nInc.",
+    "short": "20:DC:93"
+  },
+  {
+    "mac": "00-1B-E5-94-56-0F",
+    "man": "802automation\nLimited",
+    "short": "00:1B:E5"
+  },
+  {
+    "mac": "00-90-A5-0A-2A-D8",
+    "man": "SPECTRA\nLOGIC",
+    "short": "00:90:A5"
+  },
+  {
+    "mac": "40-BC-60-0C-CC-58",
+    "man": "Apple,\nInc.",
+    "short": "40:BC:60"
+  },
+  {
+    "mac": "A0-CE-C8-4F-1F-41",
+    "man": "CE\nLINK\nLIMITED",
+    "short": "A0:CE:C8"
+  },
+  {
+    "mac": "D8-B3-77-12-A1-78",
+    "man": "HTC\nCorporation",
+    "short": "D8:B3:77"
+  },
+  {
+    "mac": "F4-7A-CC-2C-15-56",
+    "man": "SolidFire,\nInc.",
+    "short": "F4:7A:CC"
+  },
+  {
+    "mac": "00-A0-E9-77-CF-09",
+    "man": "ELECTRONIC\nRETAILING\nSYSTEMS\nINT...",
+    "short": "00:A0:E9"
+  },
+  {
+    "mac": "60-2A-D0-F9-AF-2A",
+    "man": "Cisco\nSPVTG",
+    "short": "60:2A:D0"
+  },
+  {
+    "mac": "00-50-AD-DA-A7-91",
+    "man": "CommUnique\nWireless\nCorp.",
+    "short": "00:50:AD"
+  },
+  {
+    "mac": "90-0A-3A-F7-B2-9F",
+    "man": "PSG\nPlastic\nService\nGmbH",
+    "short": "90:0A:3A"
+  },
+  {
+    "mac": "78-87-0D-04-FF-29",
+    "man": "Unifiedgateways\nIndia\nPrivate\nLi...",
+    "short": "78:87:0D"
+  },
+  {
+    "mac": "70-FD-45-30-67-4C",
+    "man": "HUAWEI\nTECHNOLOGIES\nCO.,LTD",
+    "short": "70:FD:45"
+  },
+  {
+    "mac": "00-90-97-E8-6F-FA",
+    "man": "Sycamore\nNetworks",
+    "short": "00:90:97"
+  },
+  {
+    "mac": "00-1B-D8-01-A8-41",
+    "man": "FLIR\nSystems\nInc",
+    "short": "00:1B:D8"
+  },
+  {
+    "mac": "00-09-8B-20-CC-55",
+    "man": "Entropic\nCommunications,\nInc.",
+    "short": "00:09:8B"
+  },
+  {
+    "mac": "34-82-DE-1E-F6-62",
+    "man": "Kiio\nInc",
+    "short": "34:82:DE"
+  },
+  {
+    "mac": "00-16-FA-DB-D6-40",
+    "man": "ECI\nTelecom\nLtd.",
+    "short": "00:16:FA"
+  },
+  {
+    "mac": "A8-F0-38-2A-12-B1",
+    "man": "SHEN\nZHEN\nSHI\nJIN\nHUA\nTAI\nELECTR...",
+    "short": "A8:F0:38"
+  },
+  {
+    "mac": "18-C1-9D-F0-C4-15",
+    "man": "Integrated\nDevice\nTechnology\n(Ma...",
+    "short": "18:C1:9D"
+  }
+]
