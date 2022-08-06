@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="app-title">xProChanger</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div id="page" class="page-backup">
+        <div id="app">
+            <header id="header">
+                <div class="d-flex justify-content-between">
+                    <h1 class="tool-name">MMO Tool <span class="tool-version">v1.0.2</span></h1>
+                    <ul class="action">
+                        <li class="action-icon icon-minimum"><a href="#"><span class="mdi mdi-minus"></span></a></li>
+                        <li class="action-icon icon-maximum"><a href="#"><span class="mdi mdi-fullscreen"></span></a>
+                        </li>
+                        <li class="action-icon icon-close"><a href="#"><span class="mdi mdi-close"></span></a></li>
+                    </ul>
+                </div>
+            </header>
+            <!-- #header -->
+            <main id="main">
+                <nav id="menu" class="navbar-primary collapsed">
+                </nav>
+                <div class="main-content">
+                    <div class="backup-search">
+                        <button id="device-tools-btn" type="button" class="btn btn-primary btn-sm" style="font-size: 12px;">Tools</button>
+                        <div class="app-inputs">
+                            <div class="input-left">
+                                <div class="input-group">
+                                    <label for="form-control">Folder</label>
+                                    <select class="form-control device-select-input" id="folder-name-search">
+                                        <option value=''></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- .input-left -->
+
+                            <div class="input-right">
+                                <div class="input-group">
+                                    <label for="form-control">File name</label>
+                                    <input type="text" aria-label="File name" class="form-control" id="file-name">
+                                </div>
+                            </div>
+                            <!-- .input-right -->
+                        </div>
+                        <!-- .app-inputs-->
+                        <div class="app-buttons">
+                            <div class="row">
+                                <button class="btn-small" id="search-file" style="width: 35%; margin-right: 20px;">Search</button>
+                            </div>
+                        </div>
+                        <!-- .app-buttons -->
+                    </div>
+                    <!-- .app-actions -->
+                    <div class="app-content">
+                        <table class="table" id="tbl-file-list">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><input type="checkbox" id="selectAll" /></th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Folder</th>
+                                    <th scope="col">Restore Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col actions">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="file-list">
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- .app-content -->
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination pagination-sm" id="page-pagination">
+                            <!-- <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                          </li>
+                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <!-- .content -->
+            </main>
+            <!-- #main -->
+
+        </div>
+        <!-- #app -->
+    </div>
+    <!-- #main -->
+
+    <!-- confirm modal -->
+    <div class="modal" id="confirm-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="confirm-modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="confirm-modal-content">
+                    Modal body..
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="confirm-modal-action">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- edit modal -->
+    <div class="modal" id="edit-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="edit-modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="edit-modal-content">
+                    <input type="text" class="form-control" id="content-value">
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="edit-modal-action">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- restore modal -->
+    <div class="modal fade" id="restore-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Devices</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="mdi mdi-close"></span>
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="restore-modal-content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col w5"><input type="checkbox" id="selectAllRestoreDevice" style="margin: 10px;" />
+                                </th>
+                                <th scope="col w25">Device</th>
+                                <th scope="col w50">Key</th>
+                            </tr>
+                        </thead>
+                        <tbody id="device-list-restore">
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <div style="flex: auto; font-size: 14px;">
+                        <span style="font-weight: bold;">File: </span><span class="rm-file-title"></span>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="restore-modal-action">Restore</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Common Modal -->
+    <div id="common-modal"></div>
+    <!-- End Common Modal -->
+
+    <div id="device-tool-modal"></div>
+
+    <script>
+        var $$ = require("jquery")
+    </script>
+    <script>
+        require('popper.js');
+    </script>
+    <script>
+        require('bootstrap');
+    </script>
+    <script src="assets/js/load_common_page.js"></script>
+    <script src="assets/js/load_restore.js"></script>
+    <script src="assets/js/load_device_modal.js"></script>
+</body>
+
+</html>

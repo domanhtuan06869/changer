@@ -1,0 +1,359 @@
+<!-- License Modal -->
+<div class="modal fade" id="licenseModal" tabindex="-1" role="dialog" aria-labelledby="licenseModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="tool-name">License Information</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="assets/icons/logo-horizotal.png" style="width: 150px; margin-bottom: 10px;" />
+                <span class="tool-name">Powered by xPro Team &nbsp;|<a id="logout" href="#"
+                        class="text-danger">Logout</a></span>
+                <a id="check-update" href="#" class="text-primary hidden">Check Update</a>
+                <span id="updater" class="text-small"></span>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="packagesToWipeModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 480px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Package to Wipe</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body text-center">
+                        <textarea rows="10" id="package-wipe-input" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="save-add-pacakge-btn" type="button" class="btn btn-primary">
+                        Save
+                    </button>
+                </div>
+            </div>
+            <!-- .modal-content -->
+        </div>
+        <!-- .modal-dialog -->
+    </div>
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="choose-dir-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 360px;">
+            <div class="modal-header">
+                <h5 class="tool-name">Choose Folder To Backup</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <input id="choose-dir-input" type="text" class="form-control" style="display: unset; width: 50%;"
+                    list="choose-dir-select" />
+                <datalist id="choose-dir-select">
+                    <option value="Boston"> </option>
+                </datalist>
+
+                <button id="choose-dir-btn" type="button" class="btn btn-primary">
+                    Backup
+                </button>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="change-name-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 360px;">
+            <div class="modal-header">
+                <h5 class="tool-name">Change device name</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <input id="change-name-input" type="text" class="form-control" style="display: unset; width: 50%;" />
+                <button id="change-name-action" type="button" class="btn btn-primary">
+                    Change
+                </button>
+                <button id="delete-name-action" type="button" class="btn btn-primary">
+                    Delete
+                </button>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="change-proxy-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 480px;">
+            <div class="modal-header">
+                <h5 class="tool-name">Change proxy name</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <input id="change-proxy-input" type="text" class="form-control" placeholder="ip:port"
+                    style="display: unset; width: 50%;" />
+                <button id="change-proxy-action" type="button" class="btn btn-primary">
+                    Set
+                </button>
+                <button id="delete-proxy-action" type="button" class="btn btn-primary">
+                    Delete
+                </button>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="screen-capt-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 360px;">
+            <div class="modal-header">
+                <h5 class="tool-name">Screen Capture</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <input id="screen-capt-input" type="text" class="form-control" style="display: unset; width: 70%;" />
+                <button id="screen-capt-action" type="button" class="btn btn-primary">
+                    Capture
+                </button>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="open-link-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 400px;">
+            <div class="modal-header">
+                <h5 class="tool-name">Open Link</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <button type="button" data="ip" class="open-link-btn btn btn-primary" style="margin-right: 10px;">
+                    Check Ip
+                </button>
+                <button type="button" data="ip-api" class="open-link-btn btn btn-primary" style="margin-right: 10px;">
+                    Check Ip API
+                </button>
+                <button type="button" data="chplay" class="open-link-btn btn btn-primary" style="margin-left: 10px;">
+                    CH Play App
+                </button>
+            </div>
+            <div class="row modal-body text-center">
+                <div class="col-md-9">
+                    <input id="custom-link-input" type="text" class="form-control" list="choose-links" />
+                    <datalist id="choose-links"> </datalist>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" data="custom" class="open-link-btn btn btn-primary">
+                        Chrome
+                    </button>
+                </div>
+            </div>
+            <div class="row modal-body text-center">
+                <div class="col-md-9">
+                    <input id="custom-wipe-input" type="text" class="form-control" list="choose-packages" />
+                    <datalist id="choose-packages"> </datalist>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" data="wipe" class="open-link-btn btn btn-danger">
+                        Wipe
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<!-- License Modal -->
+<div class="modal fade" id="settings-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div style="width: 450px; height:420px" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Configuration</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" style="margin-left: 10px">
+                    <div class="form-check" style="margin-top: 10px">
+                        <input class="form-check-input" type="checkbox" id="check-ip-vysor" />
+                        <label class="form-check-label" for="check-ip-vysor">
+                            Check Ip When Open Vysor
+                        </label>
+                    </div>
+                    <div class="form-check" style="margin-top: 10px">
+                        <input class="form-check-input" type="checkbox" id="fix-pad-fgo">
+                        <label class="form-check-label" for="fix-pad-fgo">
+                            Fix PAD-FGO
+                        </label>
+                    </div>
+                    <div class="form-group" style="margin-top: 10px; ">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <label class="backup-select-label" for="form-control">Thư
+                                    mục Lưu Trữ
+                                    XPROALL</label>
+                                <input id="choose-folder-input" class="form-control col-md-8" type="text"
+                                    style="margin-right: 15px;" />
+                                <button id="choose-folder-btn">Duyệt</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group" style=" margin-top: 10px;">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <label class="backup-select-label" for="form-control">
+                                    Cài Đặt Backup App</label>
+                                <select id="apps-list-conf" class="form-control"
+                                    style="display: unset; font-size: 13px;"></select>
+                            </div>
+                        </div>
+                        <div class="form-check" style="margin-top: 10px">
+                            <input class="form-check-input" type="checkbox" id="backup-mail-and-app">
+                            <label class="form-check-label" for="backup-mail-and-app">
+                                Backup Email + App Data
+                            </label>
+                        </div>
+                        <div class="form-check" style="margin-top: 10px">
+                            <input class="form-check-input" type="checkbox" id="clear-app-after-change">
+                            <label class="form-check-label" for="clear-app-after-change">
+                                Xóa App Data sau khi Change
+                            </label>
+                        </div>
+                        <div class="form-check" style="margin-top: 10px">
+                            <input class="form-check-input" type="checkbox" id="clear-mail-after-backup">
+                            <label class="form-check-label" for="clear-mail-after-backup">
+                                Xóa Mail sau khi Backup
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="save-settings-action" type="button" class="btn btn-primary">
+                    Save
+                </button>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+<div class="modal fade" id="keys-modal" tabindex="-1" role="dialog" style="z-index: 1042;">
+    <div class="modal-dialog" style="max-width: 520px; max-height: 400px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">License</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead style="background-color:#ccc">
+                        <tr>
+                            <th scope="col">Key</th>
+                            <th scope="col">Expired</th>
+                        </tr>
+                    </thead>
+                    <tbody id="key-list"></tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Backup app Modal -->
+<div class="modal fade" id="backup-app-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 360px;">
+            <div class="modal-header">
+                <h5 id="backup-app-title-modal">App To Backup</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="mdi mdi-close"></span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <input id="backup-app-name" type="text" placeholder="Tên file backup..." class="form-control"
+                    style="width: 83%; display: unset; font-size: 14px;" />
+            </div>
+            <div class="modal-body text-center">
+                <select id="apps-list" class="form-control" style="width: 60%; display: unset; font-size: 14px;"
+                    disabled></select>
+                <button id="backup-app-btn" type="button" class="btn btn-primary">
+                    Backup
+                </button>
+            </div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+
+
+<div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="licenseModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="lds-hourglass"></div>
+        </div>
+        <!-- .modal-content -->
+    </div>
+    <!-- .modal-dialog -->
+</div>
+<!-- .modal -->
+<div id="loading" class="d-flex justify-content-center h-100 hidden">
+    <img id="loading-image" src="assets/images/loading.gif" />
+</div>

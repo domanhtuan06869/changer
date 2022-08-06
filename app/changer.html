@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="app-title">xProChanger</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="assets/css/common.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body style="overflow: hidden;">
+  <div id="page">
+    <div id="app">
+      <!-- #header -->
+      <main id="main">
+        <nav id="menu" class="navbar-primary collapsed"></nav>
+        <div class="main">
+          <header id="header">
+          </header>
+          <div class="main-content">
+            <div class="app-content" style="overflow-y: auto;">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">
+                      <input type="checkbox" id="selectAll" style="margin-top: 10px;" />
+                    </th>
+                    <th scope="col">Device</th>
+                    <th scope="col">Key</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Proxy</th>
+                    <th scope="col actions">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="device-list"></tbody>
+              </table>
+            </div>
+            <!-- .app-content -->
+            <div class="app-actions">
+              <div class="app-inputs">
+                <div class="input-left">
+                  <div class="input-group">
+                    <label for="form-control" class="input-select">Random Brand</label>
+                    <select class="form-control device-select-input" id="man-action">
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control" class="input-select">Random SDK</label>
+                    <select class="form-control device-select-input" id="sdk" placeholder="SDK">
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">Model</label>
+                    <input id="model" type="text" aria-label="Model" class="form-control" />
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">IMEI</label>
+                    <input id="IMEI" aria-label="IMEI" type="text" class="form-control" />
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">GLVendor</label>
+                    <input id="GLVendor" type="text" aria-label="GLVendor" placeholder=" " class="form-control" />
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">GLRenderer</label>
+                    <input id="GLRenderer" type="text" aria-label="Note" class="form-control" />
+                  </div>
+                  <!-- <div class="input-group">
+                                    <label for="form-control">Sum</label>
+                                    <label class="tool-name" id="summer-device"></label>
+                                </div> -->
+                </div>
+                <!-- .input-left -->
+
+                <div class="input-right">
+                  <div class="input-group">
+                    <label for="form-control" class="input-select">Random Country</label>
+                    <select class="form-control device-select-input" id="country-action">
+                      <!-- <option></option> -->
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control" class="input-select">OperatorName</label>
+                    <select class="form-control device-select-input" id="operator-name-action"
+                      aria-placeholder="Operator">
+                      <!-- <option></option> -->
+                    </select>
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">CarrierCode</label>
+                    <input id="SimOperator" aria-label="CarrierCode" type="text" class="form-control" />
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">SIM IMSI</label>
+                    <input id="SubscriberId" type="text" aria-label="SIM IMSI" class="form-control" />
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">SIM Serial</label>
+                    <input id="SimSerial" type="text" class="form-control" />
+                  </div>
+                  <div class="input-group">
+                    <label for="form-control">Phone</label>
+                    <input id="PhoneNumber" type="text" aria-label="Phone" class="form-control" />
+                  </div>
+                  <div class="input-group hidden">
+                    <label for="form-control">AndroidId</label>
+                    <input id="androidID" type="text" aria-label="Note" class="form-control" />
+                  </div>
+                </div>
+                <!-- .input-right -->
+              </div>
+              <!-- .app-inputs-->
+              <div class="app-buttons">
+                <div class="btn-group">
+                  <button id="random-info-btn" class="btn-small single">
+                    Random Info
+                  </button>
+                  <button id="save-info-btn" class="btn-small single">
+                    Save Info
+                  </button>
+                </div>
+                <div class="btn-group">
+                  <button id="random-sim-info-btn" class="btn-small single">
+                    Random SIM Info
+                  </button>
+                  <button id="save-sim-info-btn" class="btn-small single">
+                    Save SIM Info
+                  </button>
+                </div>
+                <div class="btn-group">
+                  <button id="wipe-btn" class="btn-small single">
+                    Wipe All
+                  </button>
+                  <button id="wipe-mail-btn" class="btn-small single">
+                    Wipe Mail
+                  </button>
+                </div>
+                <div class="btn-group">
+                  <button id="backup-btn" class="btn-small single">
+                    Backup Mail
+                  </button>
+                  <button id="backup-change-btn" class="btn-small single" disabled>
+                    Backup & Change Mail
+                  </button>
+                </div>
+                <div class="btn-group hidden">
+                  <button id="random-info-all-btn" class="btn-small btn-disable multi">
+                    Random All
+                  </button>
+                  <button id="save-info-all-btn" class="btn-small btn-disable multi">
+                    Save Info All
+                  </button>
+                </div>
+                <div class="btn-group hidden">
+                  <button id="random-sim-info-all-btn" class="btn-small btn-disable multi">
+                    Random SIM All
+                  </button>
+                  <button id="save-sim-info-all-btn" class="btn-small btn-disable multi">
+                    Save SIM Info All
+                  </button>
+                </div>
+                <div class="btn-group test">
+                  <input type="text" id="backup-quick-search" placeholder="search backup..." class="form-control"
+                    style="height: 24px; width: 50%; font-size: 12px;" />
+                  <select class="form-control device-select-input btn-small" id="backup-list"
+                    style="font-size: 12px; width: 50%;">
+                  </select>
+                </div>
+                <div class="btn-group test">
+                  <button id="restore-btn" class="btn-small single" style="font-size: 12px;">
+                    Restore Mail
+                  </button>
+                  <button id="backup-restore-btn" class="btn-small single" style="font-size: 12px;">
+                    B&S Mail
+                  </button>
+                </div>
+                <div class="btn-group">
+                  <button id="show-backup-app-modal-btn" class="btn-small single">
+                    Backup App
+                  </button>
+                  <button id="show-backup-change-app-modal-btn" class="btn-small single">
+                    Backup & Change App
+                  </button>
+                </div>
+                <div class="btn-group test">
+                  <input type="text" id="backup-app-quick-search" placeholder="search backup app..."
+                    class="form-control" style="height: 24px; width: 50%; font-size: 12px;" />
+                  <select class="form-control device-select-input btn-small" id="backup-app-list"
+                    style="font-size: 12px; width: 50%;">
+                  </select>
+                </div>
+                <div class="btn-group test">
+                  <button id="restore-app-btn" class="btn-small single" style="font-size: 12px;">
+                    Restore APP
+                  </button>
+                  <button id="show-backup-restore-app-modal-btn" class="btn-small single" style="font-size: 12px;">
+                    B&S APP
+                  </button>
+                </div>
+              </div>
+              <!-- .app-buttons -->
+            </div>
+            <!-- .app-actions -->
+          </div>
+          <div style="position: absolute;
+                    bottom: 15px; left: 69px;">
+            <button type="button" class="btn btn-outline-success">Refesh Device</button>
+          </div>
+        </div>
+        <!-- .content -->
+      </main>
+      <!-- #main -->
+    </div>
+    <!-- #app -->
+  </div>
+  <!-- #main -->
+
+  <!-- Common Modal -->
+  <div id="common-modal"></div>
+  <!-- End Common Modal -->
+
+  <script>
+    let $$ = require("jquery");
+  </script>
+  <script>
+    require("popper.js");
+  </script>
+  <script>
+    require("bootstrap");
+  </script>
+  <script src="assets/js/load_common_page.js"></script>
+  <script src="assets/js/load_main.js"></script>
+  <script>
+    setTimeout(() => {
+      $$(".title-page").text('Changer Page');
+    }, 1)
+  </script>
+</body>
+
+</html>

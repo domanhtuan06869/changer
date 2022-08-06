@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="app-title">xProChanger</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div id="page" class="page-backup">
+        <div id="app">
+            <main id="main">
+                <nav id="menu" class="navbar-primary collapsed">
+                </nav>
+                <div class="main">
+                    <header id="header">
+                        <!-- render html -->
+                    </header>
+                    <div class="backup-search">
+                        <div style="margin-bottom: 10px; float: left;" class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group">
+                                        <label class="backup-select-label" for="form-control">Folder</label>
+                                        <select class="form-control device-select-input" placeholder="Folder"
+                                            id="folder-name-search">
+                                            <option value=''></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="input-group">
+                                        <label class="backup-label" for="form-control">File name</label>
+                                        <input type="text" aria-label="File name" class="form-control" id="file-name">
+                                    </div>
+                                </div>
+                                <div class="col pt-1">
+                                    <button class="btn btn-primary btn-sm" id="search-file">Search</button>
+                                    <button id="device-tools-btn" type="button"
+                                        class="btn btn-primary btn-sm">Tools</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tableFixHead">
+                        <!-- .app-content -->
+                        <table class="table" id="tbl-file-list">
+                            <thead>
+                                <tr>
+                                    <th scope="col"><input type="checkbox" id="selectAll" /></th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Folder</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col actions">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="file-list">
+                            </tbody>
+                        </table>
+                        <!-- .app-content -->
+                        <div style="position: absolute;
+                        bottom: 15px;  margin-left: 9px;">
+                            <button type="button" class="btn btn-outline-success">Refesh File</button>
+                        </div>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination pagination-sm" id="page-pagination">
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- .content -->
+            </main>
+            <!-- #main -->
+
+        </div>
+        <!-- #app -->
+    </div>
+    <!-- #main -->
+
+    <!-- confirm modal -->
+    <div class="modal" id="confirm-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="confirm-modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="confirm-modal-content">
+                    Modal body..
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="confirm-modal-action">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- edit modal -->
+    <div class="modal" id="edit-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" id="edit-modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="edit-modal-content">
+                    <input type="text" class="form-control" id="content-value">
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="edit-modal-action">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- restore modal -->
+    <div class="modal fade" id="restore-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Devices</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="mdi mdi-close"></span>
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body" id="restore-modal-content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col w5"><input type="checkbox" id="selectAllRestoreDevice"
+                                        style="margin: 10px;" />
+                                </th>
+                                <th scope="col w25">Device</th>
+                                <th scope="col w50">Key</th>
+                            </tr>
+                        </thead>
+                        <tbody id="device-list-restore">
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <div style="flex: auto; font-size: 14px;">
+                        <span style="font-weight: bold;">File: </span><span class="rm-file-title"></span>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="restore-modal-action">Restore</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Common Modal -->
+    <div id="common-modal"></div>
+    <!-- End Common Modal -->
+
+    <div id="device-tool-modal"></div>
+
+    <script>
+        var $$ = require("jquery")
+    </script>
+    <script>
+        require('popper.js');
+    </script>
+    <script>
+        require('bootstrap');
+    </script>
+    <script src="assets/js/load_common_page.js"></script>
+    <script src="assets/js/load_backup.js"></script>
+    <script src="assets/js/load_device_modal.js"></script>
+    <script>
+        setTimeout(() => {
+            $$(".title-page").text('Backup page');
+        }, 1)
+    </script>
+</body>
+
+</html>

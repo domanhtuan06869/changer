@@ -1,0 +1,75 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <!--Made with love by Mutiullah Samim -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changer - MMO Tools v1.0.2</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header text-center">
+                    <!-- <h3>Sign In</h3> -->
+                    <img src="assets/icons/logo-vertical.png" style="width: 130px;">
+                </div>
+                <div class="card-body">
+                    <form id="login-form">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text mdi mdi-account"></span>
+                            </div>
+                            <input id="username" type="text" class="form-control" placeholder="username">
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text mdi mdi-key"></span>
+                            </div>
+                            <input id="password" type="password" class="form-control" placeholder="password">
+                        </div>
+                        <div id="form-retype-password" class="input-group form-group hidden">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text mdi mdi-key-plus"></span>
+                            </div>
+                            <input id="retype-password" type="password" class="form-control" placeholder="retype password">
+                        </div>
+                        <div class="form-group">
+                            <input id="login-btn" type="submit" value="Login" class="btn float-right login_btn">
+                            <input id="signup-btn" type="submit" value="Register" class="btn float-right login_btn hidden">
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer" style="margin-right: 120px">
+                    <div id="signup-link-wrap" class="d-flex justify-content-center links">
+                        Don't have an account?<a href="#" id="signup-link">Sign Up</a>
+                    </div>
+                    <div id="login-link-wrap" class="d-flex justify-content-center links hidden" style="margin-bottom: 5px;">
+                        <a href="#" id="login-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loading" class="d-flex justify-content-center h-100 hidden">
+        <img id="loading-image" src="assets/images/loading.gif" />
+    </div>
+    <script>
+        var $ = require("jquery")
+    </script>
+    <script src="compile_all.js"></script>
+    <script src="assets/js/load_login.js"></script>
+</body>
+
+</html>
