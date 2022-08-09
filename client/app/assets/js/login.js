@@ -11,49 +11,10 @@ $(function () {
 
 $("#login-btn").click((event) => {
   event.preventDefault();
-  let username = $("#username").val();
-  let password = $("#password").val();
-  if (!username || !password) return alert("Please input username, password");
-  if (!usernameIsValid(username)) {
-    return alert("username khong hop le");
-  }
-  let email = username + "@gmail.com";
-  showLoading();
-  firebase
-    .auth()
-    .signInWithEmailAndPassword(email, password)
-    .then(function (res) {
-       console.log("signInWithEmailAndPassword", res);
-       saveLoginInfoAndGoToChangerPage(username, password);
+    hideLoading();
+    saveLoginInfoAndGoToChangerPage();
+    hideLoading();
 
-      res.user
-        .getIdToken()
-        .then((token) => {
-          localStorage.setItem("accessToken", token);
-          return signinWinelex(token);
-        })
-        .then((res) => {
-          // console.log("signinWinelex", res);
-          saveLoginInfoAndGoToChangerPage(username, password);
-
-          if (res.uid) {
-            // Lưu vào local storage
-            localStorage.setItem("loginInfo", JSON.stringify(res));
-            saveLoginInfoAndGoToChangerPage(username, password);
-          } else {
-            // Thông báo đăng nhập thất bại
-          }
-        })
-        .catch((err) => {
-          // console.log(err);
-        })
-        .then(() => hideLoading());
-    })
-    .catch(function (error) {
-      hideLoading();
-      alert("Lỗi đăng nhập!");
-      // console.log(error);
-    });
 });
 
 function showLoading() {
@@ -116,9 +77,6 @@ function usernameIsValid(username) {
 }
 
 function saveLoginInfoAndGoToChangerPage(username, password) {
-  console.log('tsrtdr');
-  localStorage.setItem("username", username);
-  localStorage.setItem("password", password);
   const { ipcRenderer } = require("electron");
   ipcRenderer.send("redirect", { file: "changer.html" });
 }

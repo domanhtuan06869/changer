@@ -262,17 +262,15 @@ Utils.requestNewInfoNew = async function (key, p) {
     for (let i = 0; i < 3; i++) {
       let token = localStorage.getItem("accessToken");
       let options = {
-        url:
-          API + "/change_e8c756d4-e3b8-11ea-87d0-0242ac130003/" + key + "?" + p,
-        headers: {
-          Authorization: "Bearer " + token,
-        },
+        url: "http://localhost:3000/change",
       };
       let res = await new Promise((r) => {
         request(options, function (error, response, body) {
           // console.log("error:", error); // Print the error if one occurred
           // console.log("statusCode:", response && response.statusCode); // Print the response status code if a response was received
           // console.log("body:", body); // Print the HTML for the Google homepage.
+          console.log(response.body);
+          return r(JSON.parse(response.body));
           if (error) return r({ code: 401 });
           if (response.statusCode != 200) {
             return r({ code: 401 });
@@ -281,14 +279,15 @@ Utils.requestNewInfoNew = async function (key, p) {
           }
         });
       });
-      if (res.code == 401) {
-        await Utils.getNewToken();
-        continue;
-      }
-      if (res.code != 200) return null;
-      let userInfo = JSON.parse(localStorage.getItem("loginInfo"));
-      let iv = userInfo.secretKey;
-      return JSON.parse(Utils.decrypt(res.data, iv));
+      // if (res.code == 401) {
+      //   await Utils.getNewToken();
+      //   continue;
+      // }
+      // if (res.code != 200) return null;
+      // let userInfo = JSON.parse(localStorage.getItem('loginInfo'));
+      // let iv = userInfo.secretKey;
+      // return JSON.parse(Utils.decrypt(res.data, iv));
+      return res;
     }
   } catch (err) {
     // console.log(err);
@@ -914,6 +913,7 @@ Utils.getDeviceModel = async function (serial) {
 Utils.fixPadProps = async function (serial) {
   let model = await Utils.getDeviceModel(serial);
   let propPath = "/system/system/build.prop";
+  let exists = await Utils.exist("/system/build.prop", serial);
   if (exists) propPath = "/system/build.prop";
   let rawProps = (await Utils.runShell(`cat ${propPath}`, serial)).stdout;
   rawProps = rawProps.replace(/userdebug/g, "user");
@@ -931,6 +931,7 @@ Utils.fixPadProps = async function (serial) {
   } else {
     let tmpFile = await Utils.createTempFile();
     fs.writeFileSync(tmpFile, rawProps);
+    await Utils.runAdb(`-s ${serial} push ${tmpFile} ${propPath}`);
     fs.unlinkSync(tmpFile);
   }
 };
@@ -949,7 +950,9 @@ Utils.changeProps = async function (props, serial) {
   let productProps = props.filter(
     (x) =>
       x.includes("ro.product") ||
-      x.includes("ro.vendor.build.version.incremental")
+      x.includes("ro.vendor.build.version.incremental") ||
+      x.includes("ro.odm.build.version.incremental") ||
+      x.includes("gsm")
   );
   let rawProps = props.filter(
     (x) =>
@@ -966,6 +969,11 @@ Utils.changeProps = async function (props, serial) {
   let model = await Utils.getDeviceModel(serial);
   if (model == "Mi A2") {
     // product props
+    await Utils.runShell(`rm -rf /system/system/product/build.prop`, serial);
+    await Utils.runShell(
+      `cp /system/system/product/build.prop_bk /system/system/product/build.prop`,
+      serial
+    );
     await Utils.runShell(
       `"${[...(odmProps || []), ...(vendorProps || [])]
         .map((x) => `echo "${x}" >> /system/system/product/build.prop`)
@@ -987,18 +995,21 @@ Utils.changeProps = async function (props, serial) {
   } else {
     for (let i = 0; i < PROP_FILES.length; i++) {
       let file = PROP_FILES[i];
-      let fileBk = file + "_bks";
+      let fileBk = file + "_bk";
       let existFileBk = await Utils.exist(fileBk, serial);
       if (!existFileBk) continue;
       let myProps;
 
-      if (file.includes("vendors/build.prop")) myProps = vendorProps;
-      if (file.includes("products/build.prop")) myProps = productProps;
+      if (file.includes("odm/etc/build.prop")) myProps = odmProps;
+      if (file.includes("vendor/build.prop")) myProps = vendorProps;
+      if (file.includes("product/build.prop")) myProps = productProps;
+      if (file.includes("system/build.prop"))
         myProps = [...systemProps, ...rawProps];
 
       if (!myProps) continue;
+      let orgProps = (await Utils.runShell(`cat ${fileBk}`, serial)).stdout;
       if (fixDetectDebug) {
-        orgProps = orgProps.replace(/userdebug/g, "users");
+        orgProps = orgProps.replace(/userdebug/g, "user");
       }
       let finalProps = [
         ...orgProps.split("\n"),
@@ -1008,6 +1019,7 @@ Utils.changeProps = async function (props, serial) {
       ];
       let tmpFile = await Utils.createTempFile();
       fs.writeFileSync(tmpFile, finalProps.join("\n"));
+      await Utils.runAdb(`-s ${serial} push ${tmpFile} ${file}`);
       fs.unlinkSync(tmpFile);
     }
     if (fixDetectDebug && isHero) {
@@ -1020,6 +1032,7 @@ Utils.resetProps = async function (serial) {
   for (let i = 0; i < PROP_FILES.length; i++) {
     let file = PROP_FILES[i];
     let fileBk = file + "_bk";
+    let existFileBk = await Utils.exist(fileBk, serial);
     if (!existFileBk) continue;
     await Utils.runShell(`cp -f ${fileBk} ${file}`);
   }
@@ -1037,7 +1050,7 @@ Utils.openApp = async function (serial, packageName) {
 };
 
 Utils.openChPlay = async function (serial) {
-  return Utils.openApp(serial, "com.android.vendings");
+  return Utils.openApp(serial, "com.android.vending");
 };
 
 Utils.forceStopApp = async function (serial, packageName) {
@@ -1050,7 +1063,7 @@ Utils.stopChPlay = async function (serial) {
 };
 
 Utils.stopSettings = async function (serial) {
-  return Utils.forceStopApp(serial, "com.android.setting");
+  return Utils.forceStopApp(serial, "com.android.settings");
 };
 
 Utils.getPointFromUi = function (xml, query) {
@@ -1061,6 +1074,7 @@ Utils.getPointFromUi = function (xml, query) {
     if (!node) throw new Error();
     let values = node
       .match(/\[.*\]/)[0]
+      .match(/\d+/g)
       .map((x) => Number(x));
     let point = {
       x: Math.floor((values[0] + values[2]) / 2),
@@ -1102,10 +1116,10 @@ Utils.sendkey = async function (serial, key) {
   return Utils.runShell(`input keyevent ${key}`, serial);
 };
 Utils.enter = async function (serial) {
-  return Utils.sendkey(serial, "KEYCODED_BACK");
+  return Utils.sendkey(serial, "KEYCODE_ENTER");
 };
 Utils.back = async function (serial) {
-  return Utils.sendkey(serial, "KEYCODED_BACK");
+  return Utils.sendkey(serial, "KEYCODE_BACK");
 };
 Utils.home = async function (serial) {
   return Utils.sendkey(serial, "KEYCODE_HOME");
@@ -1116,12 +1130,12 @@ Utils.tab = async function (serial) {
 Utils.openAddAccount = async function (serial) {
   await Utils.forceStopApp(serial, "com.google.android.gms");
   return Utils.runShell(
-    "am start -n com.google.android.gms/.auth.uiflows.addaccount",
+    "am start -n com.google.android.gms/.auth.uiflows.addaccount.AccountIntroActivity",
     serial
   );
 };
 Utils.openRemoveAccount = async function (serial) {
-  return Utils.runShell("am start -a android.settings", serial);
+  return Utils.runShell("am start -a android.settings.SYNC_SETTINGS", serial);
 };
 function randomInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -1148,6 +1162,7 @@ Utils.inputDynamic = async function (serial, xml, query, text) {
   if (!x || !y) {
     return Utils.input(serial, text);
   }
+  await Utils.tap(serial, x, y);
   await Utils.sleep(500);
   return Utils.input(serial, text);
 };
@@ -1159,6 +1174,7 @@ Utils.swipeUp = async function (serial) {
 Utils.swipeHorizontal = async function (serial, x1, y1, x2, y2) {
   let rNumber = randomInteger(5, 50);
   x1 += rNumber;
+  y1 += rNumber;
   x2 += rNumber;
   y2 += rNumber;
   return Utils.runShell(`input swipe ${x1} ${y1} ${x2} ${y2}`, serial);
@@ -1168,6 +1184,7 @@ Utils.swipeVertical = async function (serial, x1, y1, x2, y2) {
   let rNumber = randomInteger(5, 50);
   x1 += rNumber;
   y1 += rNumber;
+  x2 += rNumber;
   y2 += rNumber;
   return Utils.runShell(`input swipe ${x1} ${y1} ${x2} ${y2}`, serial);
 };
@@ -1190,6 +1207,7 @@ Utils.getUiDump = async function (serial, toLower = true, toError = false) {
 Utils.getStore = async function (serial, updateStatus) {
   await Utils.home(serial);
   updateStatus(serial, "Open Get Store");
+  await Utils.stopChPlay(serial);
   await Utils.CHplayAccount(serial);
   await Utils.sleep(Random(3000, 4000));
   let startTime = new Date().getTime();
@@ -1227,7 +1245,7 @@ Utils.getStore = async function (serial, updateStatus) {
       await Utils.tapDynamic(serial, ui, "show navigation drawer");
       continue;
     }
-    if (ui.includes('"preferencess"') && ui.includes('"country and profiles"')) {
+    if (ui.includes('"preferences"') && ui.includes('"country and profiles"')) {
       if (ui.includes('"united states"')) {
         Utils.alertError("Mail Bị Dính Country US, Stopped");
 
@@ -1251,6 +1269,8 @@ Utils.getStore = async function (serial, updateStatus) {
 
       await Utils.stopChPlay(serial);
 
+      await Utils.CHplayAccount(serial);
+
       await Utils.sleep(Random(3000, 4000));
 
       continue;
@@ -1259,6 +1279,8 @@ Utils.getStore = async function (serial, updateStatus) {
       updateStatus(serial, "Kickout Home, Reloading");
 
       await Utils.stopChPlay(serial);
+
+      await Utils.CHplayAccount(serial);
 
       await Utils.sleep(Random(3000, 4000));
 
@@ -1402,7 +1424,7 @@ Utils.showVysor = async function (serial, title) {
   return Utils.run(cmd);
 };
 Utils.getWinName = async function (serial) {
-  return (await Utils.runShell(`cat /data/local/tmp`, serial)).stdout;
+  return (await Utils.runShell(`cat /data/local/tmp/win_name`, serial)).stdout;
 };
 Utils.setWinName = async function (serial, name) {
   if (!serial || !name) return;
@@ -1410,19 +1432,19 @@ Utils.setWinName = async function (serial, name) {
 };
 Utils.deleteWinName = async function (serial) {
   if (!serial) return;
-  return Utils.runShell(`rm -rf /data/local/tmp`, serial);
+  return Utils.runShell(`rm -rf /data/local/tmp/win_name`, serial);
 };
 Utils.openDefaultBrowser = async function (serial, link) {
   if (!serial || !link) return;
   return Utils.runShell(
-    `am start -a "android.intent.action" -d "${link}"`,
+    `am start -a "android.intent.action.VIEW" -d "${link}"`,
     serial
   );
 };
 Utils.openChrome = async function (serial, link) {
   if (!serial || !link) return;
   return Utils.runShell(
-    `am start -n com.android.chrome/com.google.android.apps.chrome.Main -a android.intent.VIEW -d '${link}'`,
+    `am start -n com.android.chrome/com.google.android.apps.chrome.Main -a android.intent.action.VIEW -d '${link}'`,
     serial
   );
 };

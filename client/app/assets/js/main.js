@@ -167,7 +167,7 @@ function checkedAndEnableVipSession() {
 
 $(async () => {
   showLoading();
-  checkedAndEnableVipSession();
+  // checkedAndEnableVipSession();
   let deviceSerials = await getSerials();
   await Promise.all(
     deviceSerials.map(async (serial) => {
@@ -189,7 +189,7 @@ $(async () => {
       if (newSerials.length == 0) continue;
       for (let i = 0; i < newSerials.length; i++) {
         await addNewDevice(newSerials[i]);
-        disableInvalidDevice();
+        // disableInvalidDevice();
       }
     } catch {
       // ignored
@@ -686,11 +686,10 @@ function loadDeviceInfo() {
       }
       $("#SimOperator").val(operator);
     }
-
   }
 
   updateUiWithMode();
-  disableInvalidDevice();
+  // disableInvalidDevice();
 }
 
 async function reloadBackupList() {
@@ -1065,6 +1064,15 @@ async function saveInfo(serial, onlySim = false) {
   let cmdS9 = [];
   let cmdA1 = [];
   let cmdA2 = [];
+  for (const k in newInfo) {
+    let v = newInfo[k];
+    if (onlySim && !simPropKeys.includes(k)) continue;
+    v = remakeProp(k, v);
+    cmdS7.push(`echo '${v}' > ${infoFolderS7}/${k}`);
+    cmdS9.push(`echo '${v}' > ${infoFolderS9}/${k}`);
+    cmdA1.push(`echo '${v}' > ${infoFolderA1}/${k}`);
+    cmdA2.push(`echo '${v}' > ${infoFolderA2}/${k}`);
+  }
 
   await runShell(`"${cmdS7.join(" && ")}"`, serial);
   await runShell(`"${cmdS9.join(" && ")}"`, serial);
@@ -1072,6 +1080,8 @@ async function saveInfo(serial, onlySim = false) {
   await runShell(`"${cmdA2.join(" && ")}"`, serial);
 
   if (!onlySim) {
+    // Change props
+    await changeProps(device.props, serial);
     // Clear
     updateStatus(serial, "Cleanup...");
     await clearAll(allPack, serial);
@@ -1848,10 +1858,10 @@ function updateUiWithMode() {
     $(".single").prop("disabled", true);
     $(".multi").prop("disabled", false);
   } else {
-    $(".single").addClass("btn-disable");
-    $(".multi").addClass("btn-disable");
-    $(".single").prop("disabled", true);
-    $(".multi").prop("disabled", true);
+    // $('.single').addClass('btn-disable');
+    // $('.multi').addClass('btn-disable');
+    // $('.single').prop('disabled', true);
+    // $('.multi').prop('disabled', true);
   }
 }
 
@@ -1875,9 +1885,7 @@ function initDataUi() {
   );
   androidVersion.forEach((v) => {
     let selected = v.release == "10" ? "selected" : "";
-    $("#sdk").append(
-      `<option ${selected} value=${29}>${v.release}</option>`
-    );
+    $("#sdk").append(`<option ${selected} value=${29}>${v.release}</option>`);
   });
 }
 
@@ -2139,7 +2147,157 @@ async function clearMail(serial) {
   await wipeAll(serial);
 }
 async function backupApp(serial, options) {
-  console.log("backup app");
+  let { app, name, change, restore, filePath } = options || {};
+  function status(text) {
+    updateStatus(serial, `BK-APP: ${text}`);
+  }
+  if (!serial || !app) {
+    return false;
+  }
+  let device = _devices.find((x) => x.serial == serial);
+  if (!device) {
+    // Thống báo lỗi, không tìm thấy thiết bị này
+    return;
+  }
+  let existPackage = await isPackageExist(serial, app);
+  let allPack = await getAllPackages(serial);
+  let backupMail = localStorage.getItem("conf-backup-mail-and-app") == "true";
+  if (!existPackage) return false;
+  updateProcessStatusForDevice(serial, BACKUP_APP, STATUS_PROCESSING);
+  beforeAction(serial);
+  status(app);
+  await sleep(2000);
+
+  // Always get new info
+  let newInfo = {};
+  let props;
+  if (change) {
+    // Chưa có info thì request từ api
+    let needRequestInfo =
+      !device.newInfo || Object.keys(device.newInfo).length == 0;
+    if (needRequestInfo) {
+      let brand = $("#man-action").val();
+      if (_randomBrand) brand = "";
+      let country = $("#country-action").val();
+      let operator = $("#operator-name-action").val();
+      let sdk = $("#sdk").val() || "29";
+      let info = await requestNewInfoNew(
+        device.key,
+        [
+          "country=" + country,
+          "brand=" + brand,
+          "operator=" + operator,
+          "sdk=" + sdk,
+          "serial=" + serial,
+        ].join("&")
+      );
+      let uiInfo = getUiInfo();
+      // Nếu edit phone trên ui thì cập nhật vào
+      ["PhoneNumber", "SimOperator", "SubscriberId"].forEach((k) => {
+        let uiValue = uiInfo[k];
+        if (!uiValue) return;
+        if (device.oldInfo[k] == uiValue || device.newInfo[k] == uiValue)
+          return;
+        info["fullInfo"][k] = uiValue;
+      });
+      newInfo = info["fullInfo"];
+      props = info["props"];
+    } else {
+      newInfo = Object.assign(device.newInfo, getUiInfo());
+      props = device.props;
+    }
+    device.newInfo = {};
+  }
+  status("Boot Recovery");
+  await rebootRecovery(serial);
+  status("Wait Recovery");
+  await waitRecovery(serial);
+  status("Collect Info");
+  await mountSystemTwrp(serial);
+  // ==== backup
+  let winInfoPaths = await getWinInfoPaths(serial);
+  let appInfoPaths = await getAppPaths(serial, app);
+  status("Remove Cache");
+  await removeAppCache(serial, app, appInfoPaths);
+  let backupPaths = [...winInfoPaths, ...appInfoPaths];
+  if (!name) name = app;
+  let timeFormat = genFileNameTime();
+  let fileName = `${name}_${timeFormat}.wbk`;
+  let guestPath = `/data/backup/${fileName}`;
+  // kiểm tra có backup cả gmail không
+  if (backupMail) {
+    let mail = await getLoggedMail(serial);
+    if (mail) {
+      await cleanBeforeBackup(serial);
+      let paths = await getAllBackupPaths(serial);
+      backupPaths = [...backupPaths, ...paths];
+      await cleanAfterBackup();
+    }
+  }
+  status("Backup...");
+  await runShell(`tar -zcvf ${guestPath} ${backupPaths.join(" ")}`, serial);
+  await runAdb(`-s ${serial} pull ${guestPath} ${BACKUP_APP_DIR}`);
+  status("Cleanup");
+  await runShell(`rm -rf ${guestPath}`);
+  await runShell(`rm -rf ${appInfoPaths.join(" ")}`, serial);
+  // ==== end backup
+  let needChange = change && Object.keys(newInfo).length > 0;
+  if (needChange) {
+    updateStatus(serial, "Change...");
+    // Remove all old info
+    await runShell(
+      "rm -rf /system/vendor/Utils /system/system/vendor/Utils /system/etc/Utils /system/system/etc/Utils",
+      serial
+    );
+
+    // Create folder if not exist
+    let infoFolderS7 = "/system/system/vendor/Utils";
+    let infoFolderS9 = "/system/vendor/Utils";
+    let infoFolderA1 = "/system/system/etc/Utils";
+    let infoFolderA2 = "/system/etc/Utils";
+
+    await runShell(`mkdir ${infoFolderS7}`, serial);
+    await runShell(`mkdir ${infoFolderS9}`, serial);
+    await runShell(`mkdir ${infoFolderA1}`, serial);
+    await runShell(`mkdir ${infoFolderA2}`, serial);
+
+    let cmdS7 = [];
+    let cmdS9 = [];
+    let cmdA1 = [];
+    let cmdA2 = [];
+    for (const k in newInfo) {
+      let v = newInfo[k];
+      v = remakeProp(k, v);
+      cmdS7.push(`echo '${v}' > ${infoFolderS7}/${k}`);
+      cmdS9.push(`echo '${v}' > ${infoFolderS9}/${k}`);
+      cmdA1.push(`echo '${v}' > ${infoFolderA1}/${k}`);
+      cmdA2.push(`echo '${v}' > ${infoFolderA2}/${k}`);
+    }
+
+    await runShell(`"${cmdS7.join(" && ")}"`, serial);
+    await runShell(`"${cmdS9.join(" && ")}"`, serial);
+    await runShell(`"${cmdA1.join(" && ")}"`, serial);
+    await runShell(`"${cmdA2.join(" && ")}"`, serial);
+
+    await changeProps(props, serial);
+    // Clear app
+    await clearApp(serial);
+    await sleep(7000);
+    await clearAll(allPack, serial);
+  }
+  if (restore) {
+    status("Restore...");
+    await restoreAppPure(serial, filePath);
+  }
+  reloadBackupAppList();
+  status("Completed - Reboot");
+  await reboot(serial);
+  await waitDevice(serial);
+  await waitBootCompleted(serial);
+  await clearMail(serial);
+  updateProcessStatusForDevice(serial, BACKUP_APP, STATUS_DONE);
+  afterAction(serial);
+  status("DONE");
 }
 
 $(document).on("click", "#restore-app-btn", async () => {
