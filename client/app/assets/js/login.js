@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 var {isDev} = require('../../../env.js')
-var { getFirebase, signinWinelex } = require(__dirname + '/utils.js' + (isDev ? '' : 'c'));
+var { getFirebase, requestNetworks } = require(__dirname + '/utils.js' + (isDev ? '' : 'c'));
 
 const firebase = getFirebase();
 
@@ -12,8 +12,11 @@ $(function () {
 $("#login-btn").click((event) => {
   event.preventDefault();
     hideLoading();
-    saveLoginInfoAndGoToChangerPage();
-    hideLoading();
+    requestNetworks().then((data)=>{
+      localStorage.setItem('networks_client', JSON.stringify(data.networks_client))
+      saveLoginInfoAndGoToChangerPage();
+      hideLoading();
+    })
 
 });
 

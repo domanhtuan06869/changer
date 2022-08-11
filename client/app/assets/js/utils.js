@@ -41,9 +41,8 @@ const PACKAGES = [
   "com.google.android.youtube",
 ];
 
-// const API = 'http://localhost:3000';
-const API =
-  "http://ec2-13-213-43-116.ap-southeast-1.compute.amazonaws.com:3000";
+const API = "http://localhost:3000";
+//const API = "http://ec2-13-213-43-116.ap-southeast-1.compute.amazonaws.com:3000";
 const SCRCPY_DIR = "C:\\win_scrcpy\\scrcpy.exe";
 const adbProductionPath = ".\\resources\\app\\extraResources\\adb.exe";
 const adbMd5 = "94226ea671d068461171ec790197adb9";
@@ -262,7 +261,7 @@ Utils.requestNewInfoNew = async function (key, p) {
     for (let i = 0; i < 3; i++) {
       let token = localStorage.getItem("accessToken");
       let options = {
-        url: "http://localhost:3000/change",
+        url: API + "/change",
       };
       let res = await new Promise((r) => {
         request(options, function (error, response, body) {
@@ -287,6 +286,34 @@ Utils.requestNewInfoNew = async function (key, p) {
       // let userInfo = JSON.parse(localStorage.getItem('loginInfo'));
       // let iv = userInfo.secretKey;
       // return JSON.parse(Utils.decrypt(res.data, iv));
+      return res;
+    }
+  } catch (err) {
+    // console.log(err);
+    return null;
+  }
+};
+
+Utils.requestNetworks = async function (key, p) {
+  try {
+    for (let i = 0; i < 3; i++) {
+      let options = {
+        url: API + "/networks",
+      };
+      let res = await new Promise((r) => {
+        request(options, function (error, response, body) {
+          // console.log("error:", error); // Print the error if one occurred
+          // console.log("statusCode:", response && response.statusCode); // Print the response status code if a response was received
+          // console.log("body:", body); // Print the HTML for the Google homepage.
+          return r(JSON.parse(response.body));
+          if (error) return r({ code: 401 });
+          if (response.statusCode != 200) {
+            return r({ code: 401 });
+          } else {
+            return r(JSON.parse(body));
+          }
+        });
+      });
       return res;
     }
   } catch (err) {

@@ -632,8 +632,7 @@ function setSimUi() {
 }
 
 function setCountryUi() {
-  const loginInfo = JSON.parse(localStorage.getItem("loginInfo"));
-  const network = loginInfo.network || [];
+  const network = JSON.parse(localStorage.getItem("networks_client"));
   network.forEach((n) => {
     $("#mail-country-action").append(
       `<option value=${n.code}>${n.code}</option>`
@@ -773,8 +772,7 @@ $("#random-info-btn").click(async () => {
 });
 
 async function getRandomCarrier(countrySelected) {
-  const loginInfo = JSON.parse(localStorage.getItem("loginInfo"));
-  const network = loginInfo.network || [];
+  const network = JSON.parse(localStorage.getItem("networks_client"));
   const country = network.find((n) => n.code === countrySelected);
   const operators = (country || {}).operators || [];
   let items = [];
@@ -808,7 +806,6 @@ async function randomInfo(serial, onlySim = false) {
         "serial=" + serial,
       ].join("&")
     );
-    console.log(info);
     if (!info) return;
     if (!onlySim) {
       device.newInfo = info["fullInfo"];
@@ -972,6 +969,7 @@ const IGNORED_PROPS = [
   "host",
   "device",
   "name",
+  "wifiMac",
 ];
 
 function remakeProp(k, v) {
@@ -1073,7 +1071,6 @@ async function saveInfo(serial, onlySim = false) {
     cmdA1.push(`echo '${v}' > ${infoFolderA1}/${k}`);
     cmdA2.push(`echo '${v}' > ${infoFolderA2}/${k}`);
   }
-
   await runShell(`"${cmdS7.join(" && ")}"`, serial);
   await runShell(`"${cmdS9.join(" && ")}"`, serial);
   await runShell(`"${cmdA1.join(" && ")}"`, serial);
@@ -1867,25 +1864,22 @@ function updateUiWithMode() {
 
 // init country, operatorname, sdk
 function initDataUi() {
-  const loginInfo = JSON.parse(localStorage.getItem("loginInfo"));
-  const mans = loginInfo.mans_org || [];
-  mans.unshift("Random");
+  const network = JSON.parse(localStorage.getItem("networks_client"));
+  const mans = ["Random"];
   mans.forEach((m) => {
     $("#man-action").append(`<option value=${m}>${m}</option>`);
   });
   $("#man-action").on("change", function () {
     _randomBrand = this.value == "Random";
   });
-  const network = loginInfo.network || [];
+
   network.forEach((n) => {
     $("#country-action").append(`<option value=${n.code}>${n.code}</option>`);
   });
-  const androidVersion = (loginInfo.androidVersion || []).sort(
-    (a, b) => b.sdk - a.sdk
-  );
+  const androidVersion = ["29"];
   androidVersion.forEach((v) => {
-    let selected = v.release == "10" ? "selected" : "";
-    $("#sdk").append(`<option ${selected} value=${29}>${v.release}</option>`);
+    // let selected = v.release == "10" ? "selected" : "";
+    $("#sdk").append(`<option ${"10"} value=${29}>${"29"}</option>`);
   });
 }
 
@@ -1894,12 +1888,9 @@ $("#sdk").on("change", function () {
   if (devices.length != 1) return;
   let device = devices[0];
   if (!device.newInfo || Object.keys(device.newInfo).length == 0) return;
-  const loginInfo = JSON.parse(localStorage.getItem("loginInfo"));
-  const androidVersion = (loginInfo.androidVersion || [])
-    .sort((a, b) => b.sdk - a.sdk)
-    .find((x) => x.sdk == this.value);
-  device.newInfo["sdk"] = androidVersion.sdk;
-  device.newInfo["release"] = androidVersion.release;
+  const androidVersion = ["29"];
+  device.newInfo["sdk"] = "29";
+  device.newInfo["release"] = "10";
 });
 
 // event for select country-action
@@ -1912,9 +1903,7 @@ $("#operator-name-action").on("change", function () {
 });
 
 function onCountryChange(countrySelected) {
-  const loginInfo = JSON.parse(localStorage.getItem("loginInfo"));
-  const network = loginInfo.network || [];
-  console.log(network);
+  const network = JSON.parse(localStorage.getItem("networks_client"));
   $("#operator-name-action").empty();
   if (!countrySelected) {
     return;
