@@ -2276,3 +2276,10 @@ Uncaught ReferenceError: setTilePage is not defined
 Uncaught ReferenceError: setTilePage is not defined
 Uncaught ReferenceError: setTilePage is not defined
 Uncaught ReferenceError: setTilePage is not defined
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
+Uncaught TypeError: Cannot read properties of null (reading 'slice')
